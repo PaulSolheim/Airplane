@@ -1,0 +1,359 @@
+Airplane:
+
+Get Unity:
+https://unity3d.com/
+Download og Installer
+Registrer Visual Studio konto
+(Velg Passord som er enkelt å huske)
+
+Lag en mappe til Unity prosjekter:
+For eksempel C:\koding\unity
+
+Hent Oppstarts prosjektet fra Github:
+github.com/PaulSolheim/Airplane
+Clone or Download -> Download ZIP
+Rename til Airplane.zip
+Pakk ut ZIP-filen
+Kopier Airplane mappa til mappa for Unity prosjekter
+
+Start Unity:
+Lag Unity profil hvis du ikke har fra før
+Logg inn med din Unity profil
+Klikk Open og finn Airplane mappa
+(Mappa som har Asset som undermappe)
+Prøv: 
+Nedlastinger/Airplane/Airplane mappa
+eventuellt
+Nedlastinger/Airplane-master/Airplane-master
+
+Gå gjennom oppsettet:
+Assets struktur
+Utviklings scenen
+IndiePixel Flyet:
+	Kontroll flater (roter, forklar pivotpunkt)
+	Propeller (roter)
+	Hjul (roter)
+
+Reorganisere Assets:
+gå til Airplane - Art - Objects
+dra IndiePixel_AirPlanes mappa under Objects
+
+Gjør flyet i scenen til en Prefab:
+Dra IndiePixel_Plane fra hierarkiet til Prefabs mappa
+
+Når du har fått opp prosjektet i Unity:
+Åpne scenen som har flyet vårt:
+I prosjektvinduet (nede til venste)
+Gå til:
+Assets
+	Airplane
+		Scenes
+Åpne scenen som heter Airplane_Setup_Dev
+
+La oss sette opp Colliders for flyet:
+Klikk på IndiePixel_Airplane i hierarkiet
+høyreklikk og legg til ny empty Gameobject
+rename til Collison_GRP
+Empty Gameobject 
+rename til Body_Front_COL
+add Capsule Collider
+endre Direction til Z-axis
+Tilpass Collider til Flykroppens front
+(bruk edit collider ikonet)
+Dupliser Collideren
+Rename kopien til Body_Back_COL
+flytt, juster og roter til det passer
+lag ny empty gameobject
+rename til L_Wing_COL
+legg til box collider til en vinge
+Juster til det passer
+Lag en ny empty gameobject
+rename til R_Wing_COL
+legg til box collider til den andre vingen
+Juster til det passer
+
+HIT - 1.gang
+
+Lag ny Empty GO
+rename til Vertical_Fin_COL
+legg til box collider
+Juster til det passer
+Lag ny Empty GO
+rename til Horizontal_Fin_COL
+legg til box collider
+Juster til det passer
+
+Legg til Rigidbody komponent til IndiePixel_Plane
+(for å få wheel colliders til å justeres)
+Se lecture 6 ca. 11 minutter
+
+Lag ny empty GO
+rename til Wheels_GRP
+Under Wheels_GRP:
+Lag ny empty GO
+rename til L_Front_Wheel_COL
+legg til wheel collider
+(dra til under L_Wheel_GEO klikk reset for automatisk justering
+så dra den tilbake)
+sett radius til 0.32
+Ctrl-D for å lage en kopi
+rename til R_Front_Wheel_COL
+(dra til under R_Wheel_GEO klikk reset for automatisk justering
+så dra den tilbake)
+sett radius til 0.32
+Ctrl-D for å lage en kopi
+rename til Back_Wheel_COL
+(dra til under Back_Wheel_GEO klikk reset for automatisk justering
+så dra den tilbake)
+sett radius til 0.1
+
+Ctrl-S for å lagre scenen.
+
+Designe koden:
+https://www.draw.io/
+Open Existing Diagram
+Folders - Kodeklubben Skedsmo-Instruktørmappa
+AirplanePhysics_Code_design
+
+Hver boks skal bli til et skript
+Gå gjennom de forskjellige boksene, kort forklaring
+
+Next up - Airplane Inputs
+build a Base Input class
+capture Keyboard Input
+capture Xbox Input
+Create a simple Editor to display Input data
+
+Se på draw.io diagrammet:
+Airplane_Inputs
+
+Lag ny mappe under code/scripts: Input
+Create C# Script: IP_BaseAirplane_Input
+Create C# Script: IP_XBoxAirplane_Input
+Lag undermappe: Editor
+hvor vi lager 2 nye scripts:
+Create C# Script: IP_BaseAirplaneInput_Editor
+Create C# Script: IP_XBoxAirplaneInput_Editor
+
+Dobbeltklikk på IP_BaseAirplane_Input
+
+La oss legge inn variabler vi trenger:
+
+namespace IndiePixel
+{
+...
+}
+
+Legg inn:
+public float pitch = 0f;
+#region Variables
+public float roll = 0f;
+public float yaw = 0f;
+public throttle = 0f;
+public int flaps = 0;
+public float brake = 0f;
+#endregion
+
+#region Builtin Methods
+void Start()
+{}
+void Update()
+{}
+#endregion
+
+Ctrl-S for å lagre - Gå til Unity
+Aktiver IndiePixel_Plane i Hierarkiet
+dra IP_BaseAirplane_Input over IndiePixel_Plane og slipp
+Vis at alle variablene er mulige å endre utenfra
+
+Gå tilbake til Visual Studio
+endre variablene fra public til protected
+Ctl-S - Gå til Unity
+
+C# Properties:
+Legg inn
+#region Properties
+public float Pitch
+{
+	get{return pitch}
+}
+
+public float Roll
+{
+	get{return roll}
+}
+
+public float Yaw
+{
+	get{return yaw}
+}
+
+public float Throttle
+{
+	get{return throttle}
+}
+
+public float Flaps
+{
+	get{return flaps}
+}
+
+public float Brake
+{
+	get{return brake}
+}
+#endregion
+
+Ctrl-S for å Lagre
+
+Methods og Virtual Methods
+Legg inn:
+#region Custom Methods
+void HandleInput()
+{
+	Debug.Log("Handling Inputs");
+}
+#endregion
+
+og
+void Update()
+{
+	HandleInput();
+}
+
+Ctrl-S - Gå til Unity - Run - Se i konsollet
+VS - endre til :
+void HandleInput()
+{
+	pitch = Input.GetAxis("Vertical");
+	roll = Input.GetAxis("Horizontal");
+	
+	Debug.Log("Pitch: " + pitch + " - " + "Roll: " + roll);
+}
+
+Ctrl-S - Unity - Run (Trykk wsad-tastene)
+
+Fix Bouncy Plane 
+Grunn: wheel colliders med mye spring og RigidBody på 1 Kg
+
+Fix: 
+RigidBody mass = 800
+Test - Fix bakover rulling
+Drag = 1
+
+Unity InputManager
+Edit - Project Settings - Input
+Horizontal - fjern left og right (piltaster)
+Vertical - fjern up og down (piltaster)
+
+For å legge til yaw:
+endre size til 19
+gå til den siste (som er ny)
+name: Yaw
+(fjern taster som ligger fra forrige)
+Alt.Negative Button: left
+Alt.Positive Button: right
+Sett samme Gravity, Dead og Sensitivity som Horizontal
+(3, 0.001, 3 hos meg)
+
+For å legge til throttle:
+endre size til 20
+gå til den siste (som er ny)
+name: Throttle
+(fjern taster som ligger fra forrige)
+Alt.Negative Button: down
+Alt.Positive Button: up
+
+HIT - 2.gang
+
+Fix egenskaper for Inputs:
+Edit - Project Settings - Input
+For Yaw og Throttle:
+Sett samme Gravity, Dead og Sensitivity som Horizontal
+(3, 0.001, 3 hos meg)
+
+VS - // ut Debug.Log linja
+
+Legg til i HandleInput()
+	yaw = Input.GetAxis("Yaw");
+	throttle = Input.GetAxis("Throttle");
+	brake = Input.GetKey(KeyCode.Space)? 1f : 0f;
+
+To måter å se verdiene på:
+1. Gjør yaw, throttle og brake public midlertidig for å teste Input 
+2. Velg Debug modus i Inspektøren
+
+Ctrl-S - Unity Run (piltastene og space)
+Sjekk om det fungerer
+
+VS - sett tilbake til protected hvis du brukte 1.
+Ctrl-S for å lagre
+
+Da er det bare Flaps som mangler:
+Legg til i HandleInput()
+
+	// Process Flaps input
+	if(Input.GetKeyDown(KeyCode.F))
+	{
+		flaps += 1;
+	}
+	if(Input.GetKeyDown(KeyCode.G))
+	{
+		flaps -= 1;
+	}
+	
+	flaps = Mathf.Clamp(flaps, 0, 3);
+	
+Ny public int maxFlapIncrement = 2;
+og ny public KeyCode brakeKey = KeyCode.Space;
++ endre i koden
+Ctrl-S og teste i Unity
+
+La oss lage en Editor som viser Inputverdiene:
+Åpne Scripts - Input - Editor:
+IP_BaseAirplaneInput_Editor
+
+Legg til namespace KodeKlubb
+Legg til using UnityEditor;
+
+Endre MonoBehavior til Editor
+
+På linja over public class:
+[CustomEditor(typeof(IP_BaseAirplane_Input))]
+[CanEditMultipleObjects]
+
+Fjern Start() og Update() metodene
+
+Legg inn koden:
+
+  #region Variables
+  private IP_BaseAirplane_Input targetInput;
+  #endregion
+
+  #region Builtin Methods
+  private void OnEnable()
+  {
+      targetInput = (IP_BaseAirplane_Input)target;
+  }
+
+  public override void OnInspectorGUI()
+  {
+      base.OnInspectorGUI();
+
+      // Custom Editor Code
+      string debugInfo = "";
+      debugInfo += "Pitch = " + targetInput.Pitch + "\n";
+      debugInfo += "Roll = " + targetInput.Roll + "\n";
+      debugInfo += "Yaw = " + targetInput.Yaw + "\n";
+      debugInfo += "Throttle = " + targetInput.Throttle + "\n";
+      debugInfo += "Brake = " + targetInput.Brake + "\n";
+      debugInfo += "Flaps = " + targetInput.Flaps + "\n";
+
+      GUILayout.Space(20);
+      EditorGUILayout.TextArea(debugInfo, GUILayout.Height(100));
+      GUILayout.Space(20);
+
+      Repaint();
+  }
+  #endregion
+
