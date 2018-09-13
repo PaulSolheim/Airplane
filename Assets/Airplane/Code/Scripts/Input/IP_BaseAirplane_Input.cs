@@ -52,6 +52,21 @@ namespace KodeKlubb
         {
             pitch = Input.GetAxis("Vertical");
             roll = Input.GetAxis("Horizontal");
+            yaw = Input.GetAxis("Yaw");
+            throttle = Input.GetAxis("Throttle");
+            brake = Input.GetKey(KeyCode.Space) ? 1f : 0f;
+
+            // Process Flaps input
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                flaps += 1;
+            }
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                flaps -= 1;
+            }
+
+            flaps = Mathf.Clamp(flaps, 0, 3);
 
             Debug.Log("Pitch: " + pitch + " - " + "Roll: " + roll);
         }

@@ -303,7 +303,9 @@ Legg til i HandleInput()
 	}
 	
 	flaps = Mathf.Clamp(flaps, 0, 3);
-	
+
+HIT - 3.Gang
+
 Ny public int maxFlapIncrement = 2;
 og ny public KeyCode brakeKey = KeyCode.Space;
 + endre i koden

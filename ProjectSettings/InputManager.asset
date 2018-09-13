@@ -294,7 +294,7 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
-    m_Name: yaw
+    m_Name: Yaw
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -310,7 +310,7 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
-    m_Name: throttle
+    m_Name: Throttle
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
