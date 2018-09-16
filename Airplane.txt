@@ -306,9 +306,11 @@ Legg til i HandleInput()
 
 HIT - 3.Gang
 
+KLARGJORT - Til de neste gangene:
+
 Ny public int maxFlapIncrement = 2;
 og ny public KeyCode brakeKey = KeyCode.Space;
-+ endre i koden
++ endret i koden
 Ctrl-S og teste i Unity
 
 La oss lage en Editor som viser Inputverdiene:
@@ -358,4 +360,63 @@ Legg inn koden:
       Repaint();
   }
   #endregion
+
+Ctrl-S og teste i Unity
+
+Lagt til Xbox Input Skript og Editor
+Lagt til i Inputmanager for å støtte Xbox:
+X_RH_Stick
+X_RV_Stick
+X_L_Bumper
+X_R_Bumper
+
+Dokumentasjon av Xbox360 kontroller:
+http://wiki.unity3d.com/index.php/Xbox360Controller
+
+Har Forandret i koden så keyboard og joystick kan brukes samtidig.
+
+Har laget Airplane Controller skript:
+IP_BaseRigidBody_Controller
+og
+IP_Airplane_Controller
+
+Beregner RigidBody sin masse ved å konvertere fra Pound til Kilo.
+
+Lagt til CenterOfGravity (COG) på flyet.
+
+4. Gang
+
+La oss lage en meny som gjør det enklere å lage nye fly.
+Åpne skriptet IP_Airplane_Menus som ligger i mappa Code/Editors
+
+Legg til koden:
+
+        [MenuItem("Airplane Tools/Create New Airplane")]
+        public static void CreateNewAirplane()
+        {
+            GameObject curSelected = Selection.activeGameObject;
+            if (curSelected)
+            {
+                IP_Airplane_Controller curController = curSelected.AddComponent<IP_Airplane_Controller>();
+                GameObject curCOG = new GameObject("COG");
+                curCOG.transform.SetParent(curSelected.transform);
+
+                curController.centerOfGravity = curCOG.transform;
+            }
+        }
+
+Ctrl-S - gå til Unity
+Lag et nytt Empty Gameobject på toppnivå i scenen
+rename til f.eks. "New_Airplane"
+velg menyen "Airplane Tools" - "Create New Airplane"
+Sjekk hva som er laget under "New_Airplane"
+
+Kult! - vi skal utvide denne funksjonen litt senere i kurset.
+
+La oss få igang Motorene så vi snart kan fly!
+
+1. kjapt om de 4. kreftene for å fly
+2. påføre kraft til en Rigidbody
+3. animering av hjul
+4. animasjonskurver for å simulere kraft
 

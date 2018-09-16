@@ -2,15 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IP_XboxAirplane_Input : MonoBehaviour {
+namespace KodeKlubb
+{
+    public class IP_XboxAirplane_Input : IP_BaseAirplane_Input
+    {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+        #region Custom Methods
+        protected override void HandleInput()
+        {
+            base.HandleInput();
+
+            pitch += Input.GetAxis("Vertical");
+            roll += Input.GetAxis("Horizontal");
+            yaw += Input.GetAxis("X_RH_Stick");
+            throttle += Input.GetAxis("X_RV_Stick");
+            brake += Input.GetAxis("Fire1");
+
+            // Process Flaps input
+            if (Input.GetButtonDown("X_R_Bumper"))
+            {
+                flaps += 1;
+            }
+            if (Input.GetButtonDown("X_L_Bumper"))
+            {
+                flaps -= 1;
+            }
+
+            flaps = Mathf.Clamp(flaps, 0, maxFlapIncrement);
+        }
+        #endregion
+
+    }
 }
