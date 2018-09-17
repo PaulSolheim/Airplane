@@ -391,19 +391,19 @@ La oss lage en meny som gjør det enklere å lage nye fly.
 
 Legg til koden:
 
-        [MenuItem("Airplane Tools/Create New Airplane")]
-        public static void CreateNewAirplane()
-        {
-            GameObject curSelected = Selection.activeGameObject;
-            if (curSelected)
-            {
-                IP_Airplane_Controller curController = curSelected.AddComponent<IP_Airplane_Controller>();
-                GameObject curCOG = new GameObject("COG");
-                curCOG.transform.SetParent(curSelected.transform);
+[MenuItem("Airplane Tools/Create New Airplane")]
+public static void CreateNewAirplane()
+{
+    GameObject curSelected = Selection.activeGameObject;
+    if (curSelected)
+    {
+        IP_Airplane_Controller curController = curSelected.AddComponent<IP_Airplane_Controller>();
+        GameObject curCOG = new GameObject("COG");
+        curCOG.transform.SetParent(curSelected.transform);
 
-                curController.centerOfGravity = curCOG.transform;
-            }
-        }
+        curController.centerOfGravity = curCOG.transform;
+    }
+}
 
 Ctrl-S - gå til Unity
 Lag et nytt Empty Gameobject på toppnivå i scenen
@@ -419,4 +419,66 @@ La oss få igang Motorene så vi snart kan fly!
 2. påføre kraft til en Rigidbody
 3. animering av hjul
 4. animasjonskurver for å simulere kraft
+
+Jeg har lagt inn:
+IP_Airplane_Engine og Airplane_Fuel
+IP_Airplane_Propeller og IP_Airplane_Wheel
+
+La oss legge til kontroll av motor og hjul
+Åpne Controller/IP_Airplane_Controller
+
+Legg til i region Variables:
+
+[Header("Engines")]
+public List<IP_Airplane_Engine> engines = new List<IP_Airplane_Engine>();
+
+[Header("Wheels")]
+public List<IP_Airplane_Wheel> wheels = new List<IP_Airplane_Wheel>();
+
+Ctrl-S Gå til Unity
+
+Lag en Empty Gameobject under IndiePixel_Airplane
+rename til Engine
+Add Component IP_Airplane_Engine
+
+Legg til "Engine" og de 3 hjulene under Airplane Controller egenskapene.
+
+Åpne Controller/IP_Airplane_Controller
+
+Finn Start() funksjonen og legg til:
+
+if (wheels != null)
+{
+    if (wheels.Count > 0)
+    {
+        foreach(IP_Airplane_Wheel wheel in wheels)
+        {
+            wheel.InitWheel();
+        }
+    }
+}
+
+Finn HandleWheel() funksjonen og legg inn:
+
+foreach(IP_Airplane_Wheel wheel in wheels)
+{
+    wheel.HandleWheel(input);
+}
+
+Finn HandleEngines() funksjonen og legg inn:
+
+if (engines != null)
+{
+    if (engines.Count > 0)
+    {
+        foreach(IP_Airplane_Engine engine in engines)
+        {
+            rb.AddForce(engine.CalculateForce(input.StickyThrottle));
+        }
+    }
+}
+
+Ctrl-S gå til Unity - Test Spillet - Beveger flyet seg hvis du øker Throttle?
+
+Finn ut hva som evt. mangler.
 

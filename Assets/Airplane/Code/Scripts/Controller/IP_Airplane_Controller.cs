@@ -13,6 +13,7 @@ namespace KodeKlubb
 
         [Tooltip("Weight is in LBS")]
         public float airplaneWeight = 800f;
+
         #endregion
 
         #region Constants

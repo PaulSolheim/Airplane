@@ -11,8 +11,7 @@ namespace KodeKlubb
         protected float roll = 0f;
         protected float yaw = 0f;
         protected float throttle = 0f;
-        protected int flaps = 0;
-        protected float brake = 0f;
+        public float throttleSpeed = 0.1f;
 
         protected float stickyThrottle;
         public float StickyThrottle
@@ -20,11 +19,16 @@ namespace KodeKlubb
             get { return stickyThrottle; }
         }
 
-        public int maxFlapIncrement = 2;
-        public float throttleSpeed = 0.1f;
-
         [SerializeField]
         public KeyCode brakeKey = KeyCode.Space;
+        protected float brake = 0f;
+
+        [SerializeField]
+        protected KeyCode cameraKey = KeyCode.C;
+        protected bool cameraSwitch = false;
+
+        public int maxFlapIncrement = 2;
+        protected int flaps = 0;
         #endregion
 
         #region Properties
