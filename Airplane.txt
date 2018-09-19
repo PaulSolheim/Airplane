@@ -437,9 +437,22 @@ public List<IP_Airplane_Wheel> wheels = new List<IP_Airplane_Wheel>();
 
 Ctrl-S Gå til Unity
 
+Klikk på IndiePixel_Airplane i Hierarkiet.
+Dra IP_Xbox Airplane_Input (Script)
+ned til:
+Base Airplane Properties
+Input egenskapen.
+
 Lag en Empty Gameobject under IndiePixel_Airplane
 rename til Engine
 Add Component IP_Airplane_Engine
+
+Gå til de 3 hjulene under Collision_GRP
+For hvert hjul: Legg til IP_Airplane_Wheel skriptet
+
+For hvert hjul:
+Legg til riktig hjul under "Wheel Graphic",
+dra fra "Wheel_GRP".
 
 Legg til "Engine" og de 3 hjulene under Airplane Controller egenskapene.
 
@@ -457,6 +470,8 @@ if (wheels != null)
         }
     }
 }
+
+Rename HandleSteering funksjonen til HandleWheel.
 
 Finn HandleWheel() funksjonen og legg inn:
 
@@ -480,5 +495,10 @@ if (engines != null)
 
 Ctrl-S gå til Unity - Test Spillet - Beveger flyet seg hvis du øker Throttle?
 
-Finn ut hva som evt. mangler.
+Max Force på Engine komponenten er for liten.
+Endre Max Force til 5000
 
+Du kan også endre på "Power Curve" egenskapen på Engine
+test litt forskjellige kurver og finn en som du er fornøyd med.
+
+Test Spillet - Beveger flyet seg hvis du øker Throttle?

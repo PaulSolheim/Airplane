@@ -34,6 +34,7 @@ namespace KodeKlubb
                     rb.centerOfMass = centerOfGravity.localPosition;
                 }
             }
+
         }
         #endregion
 

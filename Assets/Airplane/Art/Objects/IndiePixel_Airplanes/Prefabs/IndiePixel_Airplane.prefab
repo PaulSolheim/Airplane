@@ -2120,9 +2120,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84be9c2aa48917409077c9ed80ac913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxFlapIncrement: 2
   throttleSpeed: 0.1
   brakeKey: 32
+  cameraKey: 99
+  maxFlapIncrement: 2
 --- !u!136 &136031684758402526
 CapsuleCollider:
   m_ObjectHideFlags: 1
