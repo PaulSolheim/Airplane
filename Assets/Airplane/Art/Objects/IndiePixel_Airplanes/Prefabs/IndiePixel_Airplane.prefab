@@ -42,6 +42,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1091227527266420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4718605021314306}
+  - component: {fileID: 114689873153482842}
+  - component: {fileID: 114836897147159268}
+  m_Layer: 0
+  m_Name: Engine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1146026698762426
 GameObject:
   m_ObjectHideFlags: 1
@@ -68,6 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4481019697928668}
   - component: {fileID: 146208960029023594}
+  - component: {fileID: 114261159244456846}
   m_Layer: 0
   m_Name: Back_Wheel_COL
   m_TagString: Untagged
@@ -99,6 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4069110884123394}
   - component: {fileID: 146596779591858320}
+  - component: {fileID: 114293211342549814}
   m_Layer: 0
   m_Name: L_Wheel_COL
   m_TagString: Untagged
@@ -464,6 +483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4305072162007960}
   - component: {fileID: 146424267783478214}
+  - component: {fileID: 114541312247867582}
   m_Layer: 0
   m_Name: R_Wheel_COL
   m_TagString: Untagged
@@ -606,6 +626,7 @@ Transform:
   - {fileID: 4635471991109636}
   - {fileID: 4214777287489532}
   - {fileID: 4861496668075376}
+  - {fileID: 4718605021314306}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1001,6 +1022,19 @@ Transform:
   m_Father: {fileID: 4214777287489532}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 7.2580004}
+--- !u!4 &4718605021314306
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1091227527266420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000010002800646}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4743931345912030
 Transform:
   m_ObjectHideFlags: 1
@@ -2095,6 +2129,96 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114261159244456846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149816286082954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ce3df121149eec4499393cac078708e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheelGraphic: {fileID: 4831461198562638}
+  isBraking: 0
+  brakePower: 5
+  isSteering: 0
+  steerAngle: 20
+  steerSmoothSpeed: 2
+--- !u!114 &114293211342549814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1226357483484646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ce3df121149eec4499393cac078708e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheelGraphic: {fileID: 4299354389861928}
+  isBraking: 0
+  brakePower: 5
+  isSteering: 0
+  steerAngle: 20
+  steerSmoothSpeed: 2
+--- !u!114 &114541312247867582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1862906440177958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ce3df121149eec4499393cac078708e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheelGraphic: {fileID: 4203837992346586}
+  isBraking: 0
+  brakePower: 5
+  isSteering: 0
+  steerAngle: 20
+  steerSmoothSpeed: 2
+--- !u!114 &114689873153482842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1091227527266420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014e714b4a4faef4f9309d2199fb2441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxForce: 5000
+  maxRPM: 2550
+  shutOffSpeed: 2
+  powerCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.0056610107
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1.005661
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  propeller: {fileID: 0}
 --- !u!114 &114808991940228576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2106,9 +2230,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7d4a0329cc0a764eb7b74e6ed1c41e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: {fileID: 0}
+  input: {fileID: 114888917617696282}
   centerOfGravity: {fileID: 4861496668075376}
   airplaneWeight: 800
+  engines:
+  - {fileID: 114689873153482842}
+  wheels:
+  - {fileID: 114541312247867582}
+  - {fileID: 114293211342549814}
+  - {fileID: 114261159244456846}
+--- !u!114 &114836897147159268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1091227527266420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2ca88db3e9d90458acc59035772226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fuelCapacity: 26
+  fuelBurnRate: 6.1
+  onFuelFull:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114888917617696282
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -502,3 +502,6 @@ Du kan også endre på "Power Curve" egenskapen på Engine
 test litt forskjellige kurver og finn en som du er fornøyd med.
 
 Test Spillet - Beveger flyet seg hvis du øker Throttle?
+
+HIT - 4.Gang
+

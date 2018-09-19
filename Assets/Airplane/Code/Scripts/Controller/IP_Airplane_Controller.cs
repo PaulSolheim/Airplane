@@ -14,6 +14,12 @@ namespace KodeKlubb
         [Tooltip("Weight is in LBS")]
         public float airplaneWeight = 800f;
 
+        [Header("Engines")]
+        public List<IP_Airplane_Engine> engines = new List<IP_Airplane_Engine>();
+
+        [Header("Wheels")]
+        public List<IP_Airplane_Wheel> wheels = new List<IP_Airplane_Wheel>();
+
         #endregion
 
         #region Constants
@@ -35,6 +41,16 @@ namespace KodeKlubb
                 }
             }
 
+            if (wheels != null)
+            {
+                if (wheels.Count > 0)
+                {
+                    foreach (IP_Airplane_Wheel wheel in wheels)
+                    {
+                        wheel.InitWheel();
+                    }
+                }
+            }
         }
         #endregion
 
@@ -43,14 +59,23 @@ namespace KodeKlubb
         {
             HandleEngines();
             HandleAerodynamics();
-            HandleSteering();
+            HandleWheel();
             HandleBrakes();
             HandleAltitude();
         }
 
         void HandleEngines()
         {
-
+            if (engines != null)
+            {
+                if (engines.Count > 0)
+                {
+                    foreach (IP_Airplane_Engine engine in engines)
+                    {
+                        rb.AddForce(engine.CalculateForce(input.StickyThrottle));
+                    }
+                }
+            }
         }
 
         void HandleAerodynamics()
@@ -58,9 +83,12 @@ namespace KodeKlubb
 
         }
 
-        void HandleSteering()
+        void HandleWheel()
         {
-
+            foreach (IP_Airplane_Wheel wheel in wheels)
+            {
+                wheel.HandleWheel(input);
+            }
         }
 
         void HandleBrakes()
