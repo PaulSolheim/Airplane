@@ -505,3 +505,78 @@ Test Spillet - Beveger flyet seg hvis du øker Throttle?
 
 HIT - 4.Gang
 
+Endringer som jeg har lagt inn:
+Lagt til Propellers skriptet på Propellers_GEO
+Animert Propellers ved bruk av blurred materials.
+
+
+5. Gang
+
+Forrige gang fikk vi/noen flyet til å gå fremover ved å legge til en kraft
+til flyets "Rigidbody", for å få det i lufta trenger vi å lage løft.
+
+Slide 4. krefter
+Slide Vingeprofil
+Slide Angrepsvinkel
+
+La oss beregne løft i koden.
+Åpne IP_Airplane_Characteristics skriptet
+Finn CalculateLift() funksjonen
+
+Legg inn:
+
+  //Get the angle of Attack
+  angleOfAttack = Vector3.Dot(rb.velocity.normalized, transform.forward);
+  angleOfAttack *= angleOfAttack;
+
+  //Create the Lift Direction
+  Vector3 liftDir = transform.up;
+  float liftPower = liftCurve.Evaluate(normalizeMPH) * maxLiftPower;
+
+  //Add Flap Lift
+  float finalLiftPower = flapLiftPower * input.NormalizedFlaps;
+
+  //Apply the final Lift Force to the Rigidbody
+  Vector3 finalLiftForce = liftDir * (liftPower + finalLiftPower) * angleOfAttack;
+  rb.AddForce(finalLiftForce);
+
+Ctrl-S for å lagre - til Unity - Test spillet, flyr flyet om du gir full gass?
+Synes du flyet tar av ved passe hastighet? 
+Prøv å justere på noen av egenskapene og test ut konsekvenser.
+
+Tid til å justere og prøve oss frem ...
+
+Hvordan gikk du frem når du justerte på egenskapene?
+en justering - en test - en ny justering - en test
+noen justeringer - en test - noen flere justeringer - en test
+Hva tror du er en god måte å teste på?
+
+La oss legge inn styring med hjul når vi beveger oss på bakken.
+Åpne IP_Airplane_Wheel skriptet (Airplane/Code/Scripts/Wheels mappa)
+Finn HandleWheel() funksjonen
+Finn kommentaren //Handle steering of the wheel
+legg inn på linja under kommentaren:
+
+if(isSteering)
+{
+    finalSteerAngle = Mathf.Lerp(finalSteerAngle, -input.Yaw * steerAngle, Time.deltaTime * steerSmoothSpeed);
+    WheelCol.steerAngle = finalSteerAngle;
+}
+
+Ctrl-S - Unity - Finn Back_Wheel_COL i hierarkiet under Collision_GRP
+Aktiver egenskapen "Is Steering" på bakhjulet. 
+
+Test Spillet - Kan du styre med bakhjulet på bakken?
+
+Skal vi leke oss litt med å lage et terreng?
+Eller skal vi kode mer på flyet?
+
+Neste i koding er Motorlyd og Cockpit kamera, deretter Instrumenter.
+
+Neste i Terreng:
+	- Hvordan bruke CustomTerrain som lager terreng med kode.
+	- Hvordan lage en liten ørkenby med Polylised Pack.
+	- Lage en liten by i AssetForge og importere i Unity.
+	- Test ut å lage andre fly: F4U_Corsair og Military Aircraft Pack.
+	- Teste ut Cascades og TerraPainter.
+

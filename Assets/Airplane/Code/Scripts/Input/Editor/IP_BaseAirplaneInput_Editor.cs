@@ -29,6 +29,7 @@ namespace KodeKlubb
             debugInfo += "Roll = " + targetInput.Roll + "\n";
             debugInfo += "Yaw = " + targetInput.Yaw + "\n";
             debugInfo += "Throttle = " + targetInput.Throttle + "\n";
+            debugInfo += "Sticky Throttle = " + targetInput.StickyThrottle + "\n";
             debugInfo += "Brake = " + targetInput.Brake + "\n";
             debugInfo += "Flaps = " + targetInput.Flaps + "\n";
 

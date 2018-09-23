@@ -27,7 +27,7 @@ namespace KodeKlubb
         protected KeyCode cameraKey = KeyCode.C;
         protected bool cameraSwitch = false;
 
-        public int maxFlapIncrement = 2;
+        public int maxFlapIncrements = 2;
         protected int flaps = 0;
         #endregion
 
@@ -57,18 +57,29 @@ namespace KodeKlubb
             get { return flaps; }
         }
 
+        public float NormalizedFlaps
+        {
+            get
+            {
+                return (float)flaps / maxFlapIncrements;
+            }
+        }
+
         public float Brake
         {
             get { return brake; }
+        }
+
+        public bool CameraSwitch
+        {
+            get { return cameraSwitch; }
+            set { cameraSwitch = value; }
         }
         #endregion
 
         #region Builtin Methods
         // Use this for initialization
-        void Start()
-        {
-
-        }
+        void Start() {}
 
         // Update is called once per frame
         void Update()
@@ -98,7 +109,8 @@ namespace KodeKlubb
                 flaps -= 1;
             }
 
-            flaps = Mathf.Clamp(flaps, 0, maxFlapIncrement);
+            //Camera Switch Key
+            cameraSwitch = Input.GetKeyDown(cameraKey);
         }
 
         // Create a Throttle value that gradually grows and shrinks
@@ -114,6 +126,9 @@ namespace KodeKlubb
             roll = Mathf.Clamp(roll, -1f, 1f);
             yaw = Mathf.Clamp(yaw, -1f, 1f);
             throttle = Mathf.Clamp(throttle, -1f, 1f);
+            brake = Mathf.Clamp(brake, 0f, 1f);
+
+            flaps = Mathf.Clamp(flaps, 0, maxFlapIncrements);
         }
         #endregion
     }

@@ -10,12 +10,15 @@ namespace KodeKlubb
         #region Custom Methods
         protected override void HandleInput()
         {
+            // Process Keyboard
             base.HandleInput();
 
             pitch += Input.GetAxis("Vertical");
             roll += Input.GetAxis("Horizontal");
             yaw += Input.GetAxis("X_RH_Stick");
             throttle += Input.GetAxis("X_RV_Stick");
+
+            // Process Brake inputs
             brake += Input.GetAxis("Fire1");
 
             // Process Flaps input
@@ -28,7 +31,9 @@ namespace KodeKlubb
                 flaps -= 1;
             }
 
-            flaps = Mathf.Clamp(flaps, 0, maxFlapIncrement);
+            //Camera Switch Button
+            cameraSwitch = Input.GetButtonDown("X_Y_Button") || Input.GetKeyDown(cameraKey);
+
         }
         #endregion
 

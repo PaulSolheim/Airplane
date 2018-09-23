@@ -4,11 +4,22 @@ using UnityEngine;
 
 namespace KodeKlubb
 {
+    public enum AirplaneState
+    {
+        LANDED,
+        GROUNDED,
+        FLYING,
+        CRASHED
+    }
+
+    [RequireComponent(typeof(IP_Airplane_Characteristics))]
     public class IP_Airplane_Controller : IP_BaseRigidBody_Controller
     {
         #region Variables
         [Header("Base Airplane Properties")]
-        public IP_XboxAirplane_Input input;
+        public IP_Airplane_Preset airplanePreset;
+        public IP_BaseAirplane_Input input;
+        public IP_Airplane_Characteristics characteristics;
         public Transform centerOfGravity;
 
         [Tooltip("Weight is in LBS")]
@@ -20,15 +31,58 @@ namespace KodeKlubb
         [Header("Wheels")]
         public List<IP_Airplane_Wheel> wheels = new List<IP_Airplane_Wheel>();
 
+        [Header("Control Surfaces")]
+        public List<IP_Airplane_ControlSurface> controlSurfaces = new List<IP_Airplane_ControlSurface>();
+        #endregion
+
+        #region Properties
+        private float currentMSL;
+        public float CurrentMSL
+        {
+            get { return currentMSL; }
+        }
+
+        private float currentAGL;
+        public float CurrentAGL
+        {
+            get { return currentAGL; }
+        }
+
+        [SerializeField] private AirplaneState airplaneState = AirplaneState.LANDED;
+        public AirplaneState State
+        {
+            get { return airplaneState; }
+        }
+
+        private bool isGrounded = true;
+        public bool IsGrounded
+        {
+            get { return isGrounded; }
+        }
+
+        private bool isLanded = true;
+        public bool IsLanded
+        {
+            get { return isLanded; }
+        }
+
+        private bool isFlying = false;
+        public bool IsFlying
+        {
+            get { return isFlying; }
+        }
         #endregion
 
         #region Constants
         const float poundsToKilos = 0.453592f;
+        const float metersToFeet = 3.28084f;
         #endregion
 
         #region Builtin Methods
         public override void Start()
         {
+            GetPresetInfo();
+
             base.Start();
 
             float finalMass = airplaneWeight * poundsToKilos;
@@ -38,6 +92,12 @@ namespace KodeKlubb
                 if (centerOfGravity)
                 {
                     rb.centerOfMass = centerOfGravity.localPosition;
+                }
+
+                characteristics = GetComponent<IP_Airplane_Characteristics>();
+                if (characteristics)
+                {
+                    characteristics.InitCharacteristics(rb, input);
                 }
             }
 
@@ -51,6 +111,9 @@ namespace KodeKlubb
                     }
                 }
             }
+
+            isGrounded = true;
+            InvokeRepeating("CheckGrounded", 1f, 1f);
         }
         #endregion
 
@@ -58,9 +121,9 @@ namespace KodeKlubb
         protected override void HandlePhysics()
         {
             HandleEngines();
-            HandleAerodynamics();
+            HandleCharacteristics();
+            HandleControlSurfaces();
             HandleWheel();
-            HandleBrakes();
             HandleAltitude();
         }
 
@@ -78,27 +141,114 @@ namespace KodeKlubb
             }
         }
 
-        void HandleAerodynamics()
+        void HandleCharacteristics()
         {
-
+            if (characteristics)
+            {
+                characteristics.UpdateCharacteristics();
+            }
         }
 
         void HandleWheel()
         {
-            foreach (IP_Airplane_Wheel wheel in wheels)
+            if (wheels.Count > 0)
             {
-                wheel.HandleWheel(input);
+                foreach (IP_Airplane_Wheel wheel in wheels)
+                {
+                    wheel.HandleWheel(input);
+                }
             }
         }
 
-        void HandleBrakes()
+        void HandleControlSurfaces()
         {
-
+            if (controlSurfaces.Count > 0)
+            {
+                foreach (IP_Airplane_ControlSurface controlSurface in controlSurfaces)
+                {
+                    controlSurface.HandleControlSurface(input);
+                }
+            }
         }
 
         void HandleAltitude()
         {
+            currentMSL = transform.position.y * metersToFeet;
 
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, Vector3.down, out hit))
+            {
+                if (hit.transform.tag == "Terrain")
+                {
+                    currentAGL = (transform.position.y - hit.point.y) * metersToFeet;
+                }
+            }
+        }
+
+        void GetPresetInfo()
+        {
+            if (airplanePreset)
+            {
+                airplaneWeight = airplanePreset.airplaneWeight;
+                if (centerOfGravity)
+                {
+                    centerOfGravity.localPosition = airplanePreset.cogPosition;
+                }
+
+                if (characteristics)
+                {
+                    characteristics.dragFactor = airplanePreset.dragFactor;
+                    characteristics.flapDragFactor = airplanePreset.flapDragFactor;
+                    characteristics.liftCurve = airplanePreset.liftCurve;
+                    characteristics.maxLiftPower = airplanePreset.maxLiftPower;
+                    characteristics.maxMPH = airplanePreset.maxMPH;
+                    characteristics.rollSpeed = airplanePreset.rollSpeed;
+                    characteristics.yawSpeed = airplanePreset.yawSpeed;
+                    characteristics.pitchSpeed = airplanePreset.pitchSpeed;
+                    characteristics.rbLerpSpeed = airplanePreset.rbLerpSpeed;
+                }
+            }
+        }
+
+        void CheckGrounded()
+        {
+            //Debug.Log("Checking to see if the airplane is on the ground...");
+            if (wheels.Count > 0)
+            {
+                //Check to see how many wheels are on the ground
+                int groundedCount = 0;
+                foreach (IP_Airplane_Wheel wheel in wheels)
+                {
+                    if (wheel.IsGrounded)
+                    {
+                        groundedCount++;
+                    }
+                }
+
+                //Set our Airplane state using the above data
+                if (groundedCount == wheels.Count)
+                {
+                    isGrounded = true;
+                    isFlying = false;
+
+                    if (rb.velocity.magnitude < 1f)
+                    {
+                        isLanded = true;
+                        airplaneState = AirplaneState.LANDED;
+                    }
+                    else
+                    {
+                        isLanded = false;
+                        airplaneState = AirplaneState.GROUNDED;
+                    }
+                }
+                else
+                {
+                    isGrounded = false;
+                    isFlying = true;
+                    airplaneState = AirplaneState.FLYING;
+                }
+            }
         }
         #endregion
 
