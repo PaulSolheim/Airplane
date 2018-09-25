@@ -571,7 +571,119 @@ Test Spillet - Kan du styre med bakhjulet på bakken?
 Skal vi leke oss litt med å lage et terreng?
 Eller skal vi kode mer på flyet?
 
-Neste i koding er Motorlyd og Cockpit kamera, deretter Instrumenter.
+La oss legge til lyd:
+
+Aktiver IndiePixel_Airplane i Hierarkiet
+Høyreklikk - Create Empty
+Rename til Audio_GRP
+Legg til 2 Empty Gameobjects under denne:
+Idle_Audio
+FullThrottle_Audio
+Marker begge og trykk Add Component knappen
+Skriv Audio og velg AudioSource
+Naviger til Assets/Airplane/Audio/Engine mappa
+Dra hver lydfil til riktig Gameobject
+(Idle og FullThrottle)
+
+Naviger til Assets/Code/Scripts/Audio mappa
+Høyreklikk - Create new C# Script
+Gi det navnet IP_Airplane_Audio
+Legg skriptet til på Audio_GRP komponenten
+
+Dobbeltklikk på Skriptet for å åpne det i Visual Studio
+Legg til namespace, regioner, noen variabler 
+og HandleAudio() funksjon så skriptet blir:
+
+namespace KodeKlubb
+{
+    public class IP_Airplane_Audio : MonoBehaviour 
+    {
+        #region Variables
+        [Header("Airplane Audio Properties")]
+        public IP_BaseAirplane_Input  input;
+        public AudioSource idleSource;
+        public AudioSource fullThrottleSource;
+        public float maxPitchValue = 1.2f;
+        #endregion
+
+        #region Builtin Methods
+    	  // Use this for initialization
+        void Start () 
+        {
+        
+        }
+    	
+        // Update is called once per frame
+        void Update () 
+        {
+            if(input)
+            {
+                HandleAudio();
+            }        
+        }
+        #endregion
+
+        #region Custom Methods
+        protected virtual void HandleAudio()
+        {
+        
+        }        
+        #endregion
+    }
+}
+
+Ctrl-S for å lagre - Unity
+Sett Loop egenskapen på begge AudioSource til Aktivert (huket av)
+
+Test Spillet - Får du høy lyd (full gass)?
+La oss justere lydnivået i kode avhengig av hvor mye Throttle vi har.
+Gå til Skriptet i Visual Studio
+
+Endre Start() funksjonen så vi alltid starter med null i volume:
+
+	void Start () 
+    {
+        if(fullThrottleSource)
+        {
+            fullThrottleSource.volume = 0f;
+        }
+	}
+
+Legg til 2 private variabler i Variables regionen:
+
+  private float finalVolumeValue;
+  private float finalPitchValue;
+
+Skriv kode i HandleAudio() funksjonen så den blir:
+
+  protected virtual void HandleAudio()
+  {
+      finalVolumeValue = Mathf.Lerp(0f, 1f, input.StickyThrottle);
+      finalPitchValue = Mathf.Lerp(1f, maxPitchValue, input.StickyThrottle);
+
+      if(fullThrottleSource)
+      {
+          fullThrottleSource.volume = finalVolumeValue;
+          fullThrottleSource.pitch = finalPitchValue;
+      }
+  }
+
+Ctrl-S for å lagre - til Unity
+
+La oss konfigurere skriptet som ligger på Audio_GRP komponenten
+Aktiver Audio_GRP i hierarkiet
+Dra IndiePixel_Airplane til "Input" egenskapen
+Dra Idle_Audio til "Idle Source" egenskapen
+Dra FullThrottle_Audio til "Full Throttle Source" egenskapen
+
+Velg IndiePixel_Airplane - Trykk Apply knappen i inspektøren
+for å legge alle endringene vi har gjort i flyet i scenen til Prefaben i Assets.
+
+Test Spillet - Får du høyere/lavere lyd når du gir mer/mindre gass?
+Du kan prøve å justere opp "Max Pitch Value" litt i inspektøren
+og teste ut i spillet til du finner en verdi som du synes er passe.
+
+Neste i koding er Cockpit kamera, deretter Instrumenter.
 
 Neste i Terreng:
 	- Hvordan bruke CustomTerrain som lager terreng med kode.
