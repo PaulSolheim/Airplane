@@ -683,7 +683,7 @@ Test Spillet - Får du høyere/lavere lyd når du gir mer/mindre gass?
 Du kan prøve å justere opp "Max Pitch Value" litt i inspektøren
 og teste ut i spillet til du finner en verdi som du synes er passe.
 
-Neste i koding er Cockpit kamera, deretter Instrumenter.
+Neste i koding er Instrumenter.
 
 Neste i Terreng:
 	- Hvordan bruke CustomTerrain som lager terreng med kode.

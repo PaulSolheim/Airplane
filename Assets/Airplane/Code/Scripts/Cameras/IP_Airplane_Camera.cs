@@ -21,7 +21,7 @@ namespace KodeKlubb
             {
                 if(hit.distance < minHeightFromGround && hit.transform.tag == "Terrain")
                 {
-//                    Debug.Log("Hitting Ground");
+//                  Debug.Log("Hitting Ground");
                     float wantedHeight = origHeight + (minHeightFromGround - hit.distance);
                     height = wantedHeight;
                 }
