@@ -2714,7 +2714,7 @@ MonoBehaviour:
   wheelGraphic: {fileID: 4831461198562638}
   isBraking: 0
   brakePower: 5
-  isSteering: 0
+  isSteering: 1
   steerAngle: 20
   steerSmoothSpeed: 2
 --- !u!114 &114293211342549814

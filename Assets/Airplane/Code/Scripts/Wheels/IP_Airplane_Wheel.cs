@@ -81,7 +81,11 @@ namespace KodeKlubb
                 }
 
                 //Handle steering of the wheel
-
+                if (isSteering)
+                {
+                    finalSteerAngle = Mathf.Lerp(finalSteerAngle, -input.Yaw * steerAngle, Time.deltaTime * steerSmoothSpeed);
+                    WheelCol.steerAngle = finalSteerAngle;
+                }
 
                 //Check to see if the wheel is grounded
                 isGrounded = WheelCol.isGrounded;

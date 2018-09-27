@@ -114,7 +114,20 @@ namespace KodeKlubb
         //Build a lift force strong enough to lift the plane off the ground
         void CalculateLift()
         {
+            //Get the angle of Attack
+            angleOfAttack = Vector3.Dot(rb.velocity.normalized, transform.forward);
+            angleOfAttack *= angleOfAttack;
 
+            //Create the Lift Direction
+            Vector3 liftDir = transform.up;
+            float liftPower = liftCurve.Evaluate(normalizeMPH) * maxLiftPower;
+
+            //Add Flap Lift
+            float finalLiftPower = flapLiftPower * input.NormalizedFlaps;
+
+            //Apply the final Lift Force to the Rigidbody
+            Vector3 finalLiftForce = liftDir * (liftPower + finalLiftPower) * angleOfAttack;
+            rb.AddForce(finalLiftForce);
         }
 
 

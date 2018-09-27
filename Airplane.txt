@@ -525,18 +525,14 @@ Finn CalculateLift() funksjonen
 
 Legg inn:
 
-  //Get the angle of Attack
   angleOfAttack = Vector3.Dot(rb.velocity.normalized, transform.forward);
   angleOfAttack *= angleOfAttack;
 
-  //Create the Lift Direction
   Vector3 liftDir = transform.up;
   float liftPower = liftCurve.Evaluate(normalizeMPH) * maxLiftPower;
 
-  //Add Flap Lift
   float finalLiftPower = flapLiftPower * input.NormalizedFlaps;
 
-  //Apply the final Lift Force to the Rigidbody
   Vector3 finalLiftForce = liftDir * (liftPower + finalLiftPower) * angleOfAttack;
   rb.AddForce(finalLiftForce);
 
@@ -570,6 +566,8 @@ Test Spillet - Kan du styre med bakhjulet på bakken?
 
 Skal vi leke oss litt med å lage et terreng?
 Eller skal vi kode mer på flyet?
+
+HIT - Min Versjon
 
 La oss legge til lyd:
 

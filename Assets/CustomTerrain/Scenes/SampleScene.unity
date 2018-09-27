@@ -344,7 +344,7 @@ MonoBehaviour:
   terrain: {fileID: 2144030230}
   terrainData: {fileID: 15600000, guid: 58d156f4b336f2b4fa2d75fb3e2a1e00, type: 2}
   resetTerrain: 1
-  heightMapImage: {fileID: 2800000, guid: 659a2b9438002d443ae874478a86d4a2, type: 3}
+  heightMapImage: {fileID: 2800000, guid: b034f6aa39aa2ae4e980fd109eb86271, type: 3}
   heightMapScale: {x: 0.5, y: 0.5, z: 1}
   perlinXScale: 0.01
   perlinYScale: 0.01
