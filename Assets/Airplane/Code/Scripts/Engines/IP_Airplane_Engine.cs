@@ -19,7 +19,6 @@ namespace KodeKlubb
 
         private bool isShutOff = false;
         private float lastThrottleValue;
-        private float finalShutoffThrottleValue;
 
         private IP_Airplane_Fuel fuel;
         #endregion
@@ -67,8 +66,7 @@ namespace KodeKlubb
             {
                 lastThrottleValue -= Time.deltaTime * shutOffSpeed;
                 lastThrottleValue = Mathf.Clamp01(lastThrottleValue);
-                finalShutoffThrottleValue = powerCurve.Evaluate(lastThrottleValue);
-                finalThrottle = finalShutoffThrottleValue;
+                finalThrottle = powerCurve.Evaluate(lastThrottleValue);
             }
 
             // Calculate RPM's

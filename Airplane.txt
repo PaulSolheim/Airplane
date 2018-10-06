@@ -567,8 +567,6 @@ Test Spillet - Kan du styre med bakhjulet på bakken?
 Skal vi leke oss litt med å lage et terreng?
 Eller skal vi kode mer på flyet?
 
-HIT - Min Versjon
-
 La oss legge til lyd:
 
 Aktiver IndiePixel_Airplane i Hierarkiet
@@ -579,7 +577,7 @@ Idle_Audio
 FullThrottle_Audio
 Marker begge og trykk Add Component knappen
 Skriv Audio og velg AudioSource
-Naviger til Assets/Airplane/Audio/Engine mappa
+Naviger til Assets/Airplane/Art/Audio/Engine mappa
 Dra hver lydfil til riktig Gameobject
 (Idle og FullThrottle)
 
@@ -681,7 +679,59 @@ Test Spillet - Får du høyere/lavere lyd når du gir mer/mindre gass?
 Du kan prøve å justere opp "Max Pitch Value" litt i inspektøren
 og teste ut i spillet til du finner en verdi som du synes er passe.
 
+6. Gang
+
 Neste i koding er Instrumenter.
+
+Jeg har lagt inn følgende skript:
+IP_AirplaneUI_Controller
+IAirplaneUI
+IP_Airplane_Airspeed
+IP_Airplane_Altimeter
+IP_Airplane_FlapLever
+IP_Airplane_FuelGauge
+IP_Airplane_Tachometer
+IP_Airplane_ThrottleLever
+IP_Airplane_Collisions
+IP_Airplane_EngineCutoff (tastene O og P)
+
+Jeg har også lagret Level_Manager som Prefab
+og satt opp det meste på F4U_Airplane som en prefab.
+
+Jeg har satt opp UI for:
+Altimeter
+Tachometer
+FuelGauge
+ThrottleLever
+FlapLever
+
+La oss sette opp UI for AirSpeed sammen:
+
+Switch til 2D hvis det ikke allerede er sånn (trykk 2)
+
+Aktiver Airplane_HUD i hierarkiet (dobbeltklikk)
+(Level_Manager/UI_GRP/Canvas/Airplane_HUD)
+Legg til "Empty Gameobject"
+Rename til "Airspeed"
+Add Image komponent
+Dra "airspeed-bg" fra Airplane/Art/Textures/UI/PC mappa til Image Source
+Aktiver "preserve aspect ratio" og "Set native size"
+Resize og flytt Airspeed
+Høyreklikk Airspeed i hierarkiet og Add UI/Image
+Rename til "Pointer_Image"
+Dra "airspeed-pointer" fra Airplane/Art/Textures/UI/PC mappa til Image Source
+Aktiver "preserve aspect ratio" og "Set native size"
+Resize og flytt Pointer_Image samt sett "Pivot Point" i sentrum (bruk T)
+Add "Knob_Image" under Airspeed, bruk "altimeter-center-knob", resize og sett i sentrum.
+
+Aktiver "Airspeed" i hierarkiet
+Legg til skriptet Airplane/Code/Scripts/UI/Instruments/IP_Airplane_Airspeed
+Konfigurer public variablene for skriptet:
+XX_Airplane og Pointer
+
+Kort forklaring av IP_Airplane_Airspeed skriptet.
+
+Test Spillet - Fungerer Airspeed indikatoren?
 
 Neste i Terreng:
 	- Hvordan bruke CustomTerrain som lager terreng med kode.
