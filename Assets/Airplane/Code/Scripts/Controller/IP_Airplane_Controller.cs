@@ -212,7 +212,7 @@ namespace KodeKlubb
 
         void CheckGrounded()
         {
-            //Debug.Log("Checking to see if the airplane is on the ground...");
+            // Debug.Log("Checking to see if the airplane is on the ground...");
             if (wheels.Count > 0)
             {
                 //Check to see how many wheels are on the ground
@@ -246,6 +246,7 @@ namespace KodeKlubb
                 {
                     isGrounded = false;
                     isFlying = true;
+                    isLanded = false;
                     airplaneState = AirplaneState.FLYING;
                 }
             }
