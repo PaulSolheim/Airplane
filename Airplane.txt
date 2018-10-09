@@ -734,29 +734,25 @@ Kort forklaring av IP_Airplane_Airspeed skriptet.
 Test Spillet - Fungerer Airspeed indikatoren?
 
 Må Fikses - Bytte Airplane:
-Main Camera: 
-		Target
-		Justere Distance og Height siden Airplanes har forskjellig størrelse
 Level Manager:
 		Altimeter: Airplane
 		Tachometer: Engine
 		Fuel_Gauge: Engine (Fuel)
 		Throttle_Lever: Airplane (Input)
 		Flaps_Lever: Airplane (Input)
-Airplane:
-		Camera_Controller:	
-				Element 0: Main Camera
 Track Manager:
 		Airplane Controller: (Airplane)
 
-Må Fikses - Create Airplane
-Flere ting bør på plass i skriptet:
-		Collisions_GRP (Empty GameObjects)
-		Control_Surfaces_GRP (Empty GameObjects)
-		Audio_GRP with script (Idle og FullThrottle with AudioSource)
-		Cockpit_Camera
-		Camera_Controller
+Har fikset - Create Airplane
+Flere ting på plass i skriptet:
 		ControlSurfaces_GEO (Empty GameObjects)
+		Propellers_GEO
+		Wheels_GEO
+		Collisions_GRP (Empty GameObjects)
+		Control_Surfaces_GRP (GameObjects with IP_Airplane_ControlSurface)
+		Audio_GRP med skript (Idle og FullThrottle with AudioSource)
+		Cockpit_Camera (Camera)
+		Camera_Controller med skript
 
 Neste i Terreng:
 	- Hvordan bruke CustomTerrain som lager terreng med kode.

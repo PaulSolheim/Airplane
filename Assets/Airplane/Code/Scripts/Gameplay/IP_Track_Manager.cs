@@ -23,12 +23,16 @@ namespace KodeKlubb
         public UnityEvent OnCompletedRace = new UnityEvent();
 
         private IP_Track currentTrack;
+
+        private IP_Airplane_Controller targetController;
         #endregion
 
         #region Builtin Methods
         // Use this for initialization
         void Start()
         {
+            SetAirplaneController();
+
             FindTracks();
             InitializeTracks();
 
@@ -129,6 +133,16 @@ namespace KodeKlubb
             if (scoreText)
             {
                 scoreText.text = "Score: " + currentTrack.CurrentScore.ToString("0000");
+            }
+        }
+
+        void SetAirplaneController()
+        {
+            var foundControllers = FindObjectsOfType<IP_Airplane_Controller>();
+            if (foundControllers.Length == 1)
+            {
+                targetController = foundControllers[0];
+                airplaneController = targetController;
             }
         }
         #endregion
