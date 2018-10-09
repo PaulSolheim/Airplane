@@ -100,12 +100,14 @@ namespace KodeKlubb
                 lwheelCol.transform.SetParent(collisionGrp.transform, false);
                 backwheelCol.transform.SetParent(collisionGrp.transform, false);
 
-                // Create Cockpit_Camera and Camera_Controller
+                // Create Follow_Camera, Cockpit_Camera and Camera_Controller
+                GameObject followCamera = new GameObject("Follow_Camera", typeof(Camera), typeof(IP_Airplane_Camera));
                 GameObject cockpitCamera = new GameObject("Cockpit_Camera", typeof(Camera));
                 GameObject cameraControllerGO = new GameObject("Camera_Controller", typeof(IP_AirplaneCamera_Controller));
                 IP_AirplaneCamera_Controller cameraController = cameraControllerGO.GetComponent<IP_AirplaneCamera_Controller>();
                 cameraController.input = input;
 
+                followCamera.transform.SetParent(rootGO.transform, false);
                 cockpitCamera.transform.SetParent(rootGO.transform, false);
                 cameraControllerGO.transform.SetParent(rootGO.transform, false);
 

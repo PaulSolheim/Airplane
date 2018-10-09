@@ -727,13 +727,13 @@ Add "Knob_Image" under Airspeed, bruk "altimeter-center-knob", resize og sett i 
 Aktiver "Airspeed" i hierarkiet
 Legg til skriptet Airplane/Code/Scripts/UI/Instruments/IP_Airplane_Airspeed
 Konfigurer public variablene for skriptet:
-XX_Airplane og Pointer
+IndiePixel_Airplane og Pointer
 
 Kort forklaring av IP_Airplane_Airspeed skriptet.
 
 Test Spillet - Fungerer Airspeed indikatoren?
 
-Må Fikses - Bytte Airplane:
+Har fikset - Klargjort til bytte av fly:
 Level Manager:
 		Altimeter: Airplane
 		Tachometer: Engine
@@ -743,7 +743,23 @@ Level Manager:
 Track Manager:
 		Airplane Controller: (Airplane)
 
-Har fikset - Create Airplane
+Nå som vi har laget Airspeed indikator
+må vi utvide Level_Manager skriptet
+så det setter det flyet som er i scenen
+som verdi for variabelen characteristics.
+
+Åpne Level_Manager skriptet.
+Forklar hva skriptet gjør.
+Legg til Airspeed oppsett i skriptet
+
+Gå til Airspeed i hierarkiet
+nullstill characteristics egenskapen.
+Nå er skriptet avhengig av at Level_Manager
+setter egenskapen utfra hvilket fly som er i scenen.
+
+Test Spillet - Fungerer allikevel Airspeed instrumentet?
+
+Jeg har utvidet - Create Airplane
 Flere ting på plass i skriptet:
 		ControlSurfaces_GEO (Empty GameObjects)
 		Propellers_GEO
@@ -753,6 +769,19 @@ Flere ting på plass i skriptet:
 		Audio_GRP med skript (Idle og FullThrottle with AudioSource)
 		Cockpit_Camera (Camera)
 		Camera_Controller med skript
+
+Ta opp skriptet Code/Editor/IP_Airplane_SetupTools
+Jeg har allerede laget en prefab for F4U flyet,
+(Assets/Airplane/Art/Objects/Airplanes/Prefabs).
+La oss forandre skriptet så det velger et militærfly
+som modell.
+
+Test ut skriptet i Unity.
+
+Utfordring til dere er å sette opp et nytt fly
+med alle egenskaper som det trenger.
+Du må fjerne IndiePixel_Airplane fra scenen
+for å kunne teste spillet (kun et fly i scenen).
 
 Neste i Terreng:
 	- Hvordan bruke CustomTerrain som lager terreng med kode.
