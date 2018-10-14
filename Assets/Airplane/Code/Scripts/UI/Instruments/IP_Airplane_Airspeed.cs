@@ -14,9 +14,7 @@ namespace KodeKlubb
         public float maxIndicatedKnots = 160f;
         #endregion
 
-
         public const float mphToKnts = 0.868976f;
-
 
         #region Interface Methods
         public void HandleAirplaneUI()
@@ -24,7 +22,7 @@ namespace KodeKlubb
             if(characteristics && pointer)
             {
                 float currentKnots = characteristics.MPH * mphToKnts;
-                //Debug.Log(currentKnots);
+                Debug.Log("MPH: " + characteristics.MPH + " Knots: " + currentKnots);
 
                 float normalizedKnots = Mathf.InverseLerp(0f, maxIndicatedKnots, currentKnots);
                 float wantedRotation = 360f * normalizedKnots;

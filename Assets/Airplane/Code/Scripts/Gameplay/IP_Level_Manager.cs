@@ -11,6 +11,7 @@ namespace KodeKlubb
         private IP_Airplane_Engine targetEngine;
         private IP_BaseAirplane_Input targetInput;
         private IP_Airplane_Fuel targetFuel;
+        private IP_Airplane_Characteristics targetCharacteristics;
         #endregion
 
         #region Builtin Methods
@@ -21,6 +22,7 @@ namespace KodeKlubb
             var foundEngines = FindObjectsOfType<IP_Airplane_Engine>();
             var foundInputs = FindObjectsOfType<IP_BaseAirplane_Input>();
             var foundFuels = FindObjectsOfType<IP_Airplane_Fuel>();
+            var foundCharacteristics = FindObjectsOfType<IP_Airplane_Characteristics>();
 
             Debug.Log(foundControllers + " : " + foundControllers.Length);
 
@@ -40,7 +42,10 @@ namespace KodeKlubb
             {
                 targetFuel = foundFuels[0];
             }
-
+            if (foundCharacteristics.Length == 1)
+            {
+                targetCharacteristics = foundCharacteristics[0];
+            }
             // Altimeter
             IP_Airplane_Altimeter altimeter = GameObject.FindObjectOfType<IP_Airplane_Altimeter>();
             if (altimeter)
@@ -76,6 +81,12 @@ namespace KodeKlubb
                 flapLever.input = targetInput;
             }
 
+            // Airspeed
+            IP_Airplane_Airspeed airspeed = GameObject.FindObjectOfType<IP_Airplane_Airspeed>();
+            if (airspeed)
+            {
+                airspeed.characteristics = targetCharacteristics;
+            }
         }
 
         // Update is called once per frame

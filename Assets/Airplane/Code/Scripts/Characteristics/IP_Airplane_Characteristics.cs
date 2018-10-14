@@ -101,6 +101,7 @@ namespace KodeKlubb
         {
             //Transform the Rigidbody velocity vector from world space to local space
             Vector3 localVelocity = transform.InverseTransformDirection(rb.velocity);
+            Debug.Log("LocalVelocity: " + localVelocity);
             forwardSpeed = Mathf.Max(0f, localVelocity.z);
 //            forwardSpeed = Mathf.Clamp(forwardSpeed, 0f, maxMPS);
 
