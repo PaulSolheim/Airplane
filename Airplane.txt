@@ -759,6 +759,8 @@ setter egenskapen utfra hvilket fly som er i scenen.
 
 Test Spillet - Fungerer allikevel Airspeed instrumentet?
 
+HIT - 6. Gang
+
 Jeg har utvidet - Create Airplane
 Flere ting på plass i skriptet:
 		ControlSurfaces_GEO (Empty GameObjects)
@@ -776,14 +778,82 @@ Jeg har allerede laget en prefab for F4U flyet,
 La oss forandre skriptet så det velger et militærfly
 som modell.
 
+Velg A10 modellen (finn navn og sti i Assets)
+
 Test ut skriptet i Unity.
 
-Utfordring til dere er å sette opp et nytt fly
-med alle egenskaper som det trenger.
-Du må fjerne IndiePixel_Airplane fra scenen
+La oss nå sette opp dette flyet.
+Vi gjør det i flere deler.
+1. del er det som er nødvendig for å få det til å fly.
+2. del er å få egenskapene til å likne et A10.
+3. del er å få våpnene til å fungere.
+
+1. del
+Legg modellene for hjulene som barn under Wheels_GEO noden.
+(dvs. flytt dem fra modellen)
+
+Legge til Collisionshapes for de forskjellige delene:
+Body_Front_COL (Capsule Collider)
+Body_Back_COL (Capsule Collider)
+L_Wing_COL (Box Collider)
+R_Wing_COL (Box Collider)
+Vertical_Fin_COL (Box Collider)
+R_Wheel_COL (Wheel Collider)
+L_Wheel_COL (Wheel Collider)
+Horizontal_Fin_COL (Box Collider)
+Back_Wheel_COL (Wheel Collider)
+
+Legg til IP_Airplane_Wheel skriptet på hjulene, dvs.
+R_Wheel_COL
+L_Wheel_COL
+Back_Wheel_COL
+Sett opp egenskapene for hvert hjul 
+(gjelder: Graphic, Braking, Steering)
+
+Lag GEO Objekter som barn av riktig objekt under
+ControlSurfaces_GEO noden (dvs. flytt dem fra modellen)
+For å få riktig Pivot på kontrolldelene må vi flytte 
+Transform egenskapene til foreldre noden.
+Gjelder:
+Elevator_GEO
+Rudder_GEO
+L_Aileron_GEO
+R_Aileron_GEO
+L_Flap_GEO
+R_Flap_GEO
+
+Sett opp skriptene under ControlSurfaces_GRP riktig.
+Gjelder:
+Elevator
+Rudder
+L_Aileron
+R_Aileron
+L_Flap
+R_Flap
+
+Legg til AudioClip for Idle_Audio og FullThrottle_Audio
+(Se om vi kan finne lydklipp fra A10 fly på nettet)
+
+Sette opp Airplane Controller egenskapene
+Aktiver Flyet i Hierarkiet
+Klikk på "Get Airplane Components" knappen.
+Sjekk at den har funnet Wheels og Control Surfaces.
+
+Hvis det er et propellfly:
+	Sette opp egenskapene for Propellers_GEO
+	Koble propellen til Engine skriptet på Engine komponenten.
+	Ideelt sett lage egne varianter av Blur Level1 og 2 teksturene
+	(Utfra flyets faktiske propell)
+
+Fjern IndiePixel_Airplane fra scenen
 for å kunne teste spillet (kun et fly i scenen).
 
-Neste i Terreng:
+Test Spillet - Kan du fly?
+Finn ut hva som mangler:
+	Justering av kamera så det har passe avstand.
+	...
+
+Ideer til jobbing med Terreng:
 	- Hvordan bruke CustomTerrain som lager terreng med kode.
 	- Hvordan lage en liten ørkenby med Polylised Pack.
 	- Lage en liten by i AssetForge og importere i Unity.
