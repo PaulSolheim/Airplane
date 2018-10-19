@@ -125,7 +125,7 @@ namespace KodeKlubb
                 engineGO.transform.SetParent(rootGO.transform, false);
 
                 //Create the base Airplane
-                GameObject defaultAirplane = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/Airplane/Art/Objects/Airplanes/F4U_Corsair/F4U_WithCockPit_Geo.FBX", typeof(GameObject));
+                GameObject defaultAirplane = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/Military Aircraft Pack/A10/A10.fbx", typeof(GameObject));
                 if (defaultAirplane)
                 {
                     GameObject.Instantiate(defaultAirplane, graphicsGrp.transform);
