@@ -120,11 +120,14 @@ namespace KodeKlubb
         #region Custom Methods
         protected override void HandlePhysics()
         {
-            HandleEngines();
-            HandleCharacteristics();
-            HandleControlSurfaces();
-            HandleWheel();
-            HandleAltitude();
+            if (input)
+            {
+                HandleEngines();
+                HandleCharacteristics();
+                HandleControlSurfaces();
+                HandleWheel();
+                HandleAltitude();
+            }
         }
 
         void HandleEngines()

@@ -44,4 +44,4 @@ MonoBehaviour:
   flapDragFactor: 0.0005
   pitchSpeed: 1500
   rollSpeed: 2000
-  yawSpeed: 1500
+  yawSpeed: 2000

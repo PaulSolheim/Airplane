@@ -52,7 +52,7 @@ namespace KodeKlubb
             get { return throttle; }
         }
 
-        public float Flaps
+        public int Flaps
         {
             get { return flaps; }
         }

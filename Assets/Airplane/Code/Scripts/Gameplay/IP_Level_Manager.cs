@@ -87,6 +87,13 @@ namespace KodeKlubb
             {
                 airspeed.characteristics = targetCharacteristics;
             }
+
+            // Track Manager
+            var trackManager = FindObjectOfType<IP_Track_Manager>();
+            if (trackManager)
+            {
+                trackManager.airplaneController = targetController;
+            }
         }
 
         // Update is called once per frame
