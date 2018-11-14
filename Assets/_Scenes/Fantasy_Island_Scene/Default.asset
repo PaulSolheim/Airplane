@@ -1,0 +1,4368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1187c6f5a2aa584084ba67ab2162dbf, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: 
+  PackageName: Default
+  VegetationInfoList:
+  - VegetationItemID: 0b51f472-817c-4c79-9752-e664770f1ca8
+    Name: grey_willow_02
+    VegetationType: 1
+    PrefabType: 0
+    VegetationRenderMode: 2
+    EnableRuntimeSpawn: 1
+    DisableShadows: 0
+    VegetationPrefab: {fileID: 100002, guid: dc38a750cb6443f44954dadbbcecc97a, type: 3}
+    VegetationTexture: {fileID: 0}
+    VegetationGuid: dc38a750cb6443f44954dadbbcecc97a
+    SampleDistance: 2.7590733
+    Density: 1
+    RandomizePosition: 1
+    UseVegetationMasksOnStorage: 0
+    UseSamplePointOffset: 0
+    SamplePointMinOffset: 3
+    SamplePointMaxOffset: 5
+    Offset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 0
+    Bounds:
+      m_Center: {x: 0.046331644, y: 1.1527369, z: 0.11208451}
+      m_Extent: {x: 1.5001242, y: 1.1575661, z: 1.6741902}
+    ScaleMultiplier: {x: 1, y: 1, z: 1}
+    RenderDistanceFactor: 1
+    Seed: 77
+    MinScale: 0.8
+    MaxScale: 1.2
+    YScale: 1
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderSize: {x: 1, y: 1, z: 1}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderUseForBake: 1
+    ColliderDistanceFactor: 0.15
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardNormalTexture: {fileID: 0}
+    BillboardAoTexture: {fileID: 0}
+    BillboardSourceLODLevel: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    BillboardWindSpeed: 1
+    BillboardSmoothness: 0.2
+    BillboardMetallic: 0.5
+    BillboardSpecular: 0
+    BillboardOcclusion: 1
+    BillboardNormalStrength: 1
+    BillboardRecalculateNormals: 0
+    BillboardNormalBlendFactor: 1
+    BillboardRenderMode: 1
+    UseHeightRule: 1
+    MinHeight: 7
+    MaxHeight: 1500
+    UseAdvancedHeightRule: 0
+    MaxCurveHeight: 500
+    HeightRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseSteepnessRule: 1
+    MinSteepness: 10
+    MaxSteepness: 30
+    UseAdvancedSteepnessRule: 0
+    SteepnessRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoiseCutoff: 0
+    NoiseCutoffValue: 0.5
+    NoiseCutoffScale: 5
+    NoiseCutoffInverse: 0
+    NoiseCutoffOffset: {x: 0, y: 0}
+    UseNoiseDensity: 1
+    NoiseDensityScale: 5
+    NoiseDensityInverse: 0
+    NoiseDensityOffset: {x: 0, y: 0}
+    UseNoiseScaleRule: 0
+    NoiseScaleMinScale: 0.7
+    NoiseScaleMaxScale: 1.3
+    NoiseScaleScale: 5
+    NoiseScaleInverse: 0
+    NoiseScaleOffset: {x: 0, y: 0}
+    UseBiomeEdgeScaleRule: 0
+    BiomeEdgeScaleDistance: 10
+    BiomeEdgeScaleMinScale: 0.3
+    BiomeEdgeScaleMaxScale: 1
+    BiomeEdgeScaleInverse: 0
+    UseBiomeEdgeIncludeRule: 0
+    BiomeEdgeIncludeDistance: 10
+    BiomeEdgeIncludeInverse: 0
+    UseConcaveLocationRule: 0
+    ConcaveLocationInverse: 0
+    ConcaveLoactionMinHeightDifference: 1
+    ConcaveLoactionDistance: 3
+    ConcaveLoactionAverage: 1
+    UseTerrainTextureIncludeRules: 0
+    TerrainTextureIncludeRuleList: []
+    UseTerrainTextureExcludeRules: 0
+    TerrainTextureExcludeRuleList: []
+    UseTextureMaskIncludeRules: 0
+    TextureMaskIncludeRuleList: []
+    UseTextureMaskExcludeRules: 0
+    TextureMaskExcludeRuleList: []
+    ShaderName: NatureManufacture Shaders/Trees/Tree_Leaves_Specular
+    ShaderControllerSettings:
+      ControlerPropertyList:
+      - SerializedControlerPropertyType: 6
+        PropertyName: Foliage settings
+        PropertyDescription: Foliage settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: HealtyColor
+        PropertyDescription: Healthy Color
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 1, g: 1, b: 1, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: DryColor
+        PropertyDescription: DryColor
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.9158737, g: 0.9081136, b: 0.8897059, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 6
+        PropertyName: Bark settings
+        PropertyDescription: Bark settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: BarkColor
+        PropertyDescription: Bark Color
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 1, g: 1, b: 1, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 6
+        PropertyName: Wind settings
+        PropertyDescription: Wind settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: InitialBend
+        PropertyDescription: Initial Bend
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 1
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Stiffness
+        PropertyDescription: Stiffness
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 1
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Drag
+        PropertyDescription: Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 1
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDrag
+        PropertyDescription: Shiver Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.1
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDirectionality
+        PropertyDescription: Shiver Directionality
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.726
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      Heading: Nature Manufacture tree
+      Description: 
+      SupportsInstantIndirect: 1
+      LODFadeCrossfade: 0
+      LODFadePercentage: 0
+      SampleWind: 0
+      UpdateWind: 0
+      DynamicHUE: 0
+      BillboardSnow: 0
+      BillboardHDWind: 1
+      OverrideBillboardAtlasShader: 
+      OverrideBillboardAtlasNormalShader: 
+    UseTerrainSourceIncludeRule: 0
+    TerrainSourceIncludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    UseTerrainSourceExcludeRule: 0
+    TerrainSourceExcludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    DisableLOD: 0
+    LODFactor: 1
+    UseDistanceFalloff: 0
+    DistanceFalloffStartDistance: 0.4
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    RuntimePrefabRuleList: []
+  - VegetationItemID: 132723a5-d76c-4969-b868-a9b7dad6d672
+    Name: maple_bush_01
+    VegetationType: 1
+    PrefabType: 0
+    VegetationRenderMode: 2
+    EnableRuntimeSpawn: 1
+    DisableShadows: 0
+    VegetationPrefab: {fileID: 100000, guid: 6a61f2999d031544e9f8f3dbb0479d97, type: 3}
+    VegetationTexture: {fileID: 0}
+    VegetationGuid: 6a61f2999d031544e9f8f3dbb0479d97
+    SampleDistance: 2.5639355
+    Density: 1
+    RandomizePosition: 1
+    UseVegetationMasksOnStorage: 0
+    UseSamplePointOffset: 0
+    SamplePointMinOffset: 3
+    SamplePointMaxOffset: 5
+    Offset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 0
+    Bounds:
+      m_Center: {x: 0.07917422, y: 1.0522621, z: -0.11059302}
+      m_Extent: {x: 0.6697549, y: 1.0561166, z: 0.71625155}
+    ScaleMultiplier: {x: 1, y: 1, z: 1}
+    RenderDistanceFactor: 1
+    Seed: 40
+    MinScale: 0.8
+    MaxScale: 1.2
+    YScale: 1
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderSize: {x: 1, y: 1, z: 1}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderUseForBake: 1
+    ColliderDistanceFactor: 0.15
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardNormalTexture: {fileID: 0}
+    BillboardAoTexture: {fileID: 0}
+    BillboardSourceLODLevel: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    BillboardWindSpeed: 1
+    BillboardSmoothness: 0.2
+    BillboardMetallic: 0.5
+    BillboardSpecular: 0
+    BillboardOcclusion: 1
+    BillboardNormalStrength: 1
+    BillboardRecalculateNormals: 0
+    BillboardNormalBlendFactor: 1
+    BillboardRenderMode: 1
+    UseHeightRule: 1
+    MinHeight: 8
+    MaxHeight: 22
+    UseAdvancedHeightRule: 0
+    MaxCurveHeight: 500
+    HeightRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseSteepnessRule: 1
+    MinSteepness: 20
+    MaxSteepness: 30
+    UseAdvancedSteepnessRule: 0
+    SteepnessRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoiseCutoff: 0
+    NoiseCutoffValue: 0.5
+    NoiseCutoffScale: 5
+    NoiseCutoffInverse: 1
+    NoiseCutoffOffset: {x: 0, y: 0}
+    UseNoiseDensity: 1
+    NoiseDensityScale: 5
+    NoiseDensityInverse: 1
+    NoiseDensityOffset: {x: 0, y: 0}
+    UseNoiseScaleRule: 0
+    NoiseScaleMinScale: 0.7
+    NoiseScaleMaxScale: 1.3
+    NoiseScaleScale: 5
+    NoiseScaleInverse: 1
+    NoiseScaleOffset: {x: 0, y: 0}
+    UseBiomeEdgeScaleRule: 0
+    BiomeEdgeScaleDistance: 10
+    BiomeEdgeScaleMinScale: 0.3
+    BiomeEdgeScaleMaxScale: 1
+    BiomeEdgeScaleInverse: 0
+    UseBiomeEdgeIncludeRule: 0
+    BiomeEdgeIncludeDistance: 10
+    BiomeEdgeIncludeInverse: 0
+    UseConcaveLocationRule: 0
+    ConcaveLocationInverse: 0
+    ConcaveLoactionMinHeightDifference: 1
+    ConcaveLoactionDistance: 3
+    ConcaveLoactionAverage: 1
+    UseTerrainTextureIncludeRules: 0
+    TerrainTextureIncludeRuleList: []
+    UseTerrainTextureExcludeRules: 0
+    TerrainTextureExcludeRuleList: []
+    UseTextureMaskIncludeRules: 0
+    TextureMaskIncludeRuleList: []
+    UseTextureMaskExcludeRules: 0
+    TextureMaskExcludeRuleList: []
+    ShaderName: NatureManufacture Shaders/Trees/Tree_Leaves_Specular
+    ShaderControllerSettings:
+      ControlerPropertyList:
+      - SerializedControlerPropertyType: 6
+        PropertyName: Foliage settings
+        PropertyDescription: Foliage settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: HealtyColor
+        PropertyDescription: Healthy Color
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.7205882, g: 0.7205882, b: 0.7205882, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: DryColor
+        PropertyDescription: DryColor
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.8970588, g: 0.8805006, b: 0.8113106, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 6
+        PropertyName: Bark settings
+        PropertyDescription: Bark settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: BarkColor
+        PropertyDescription: Bark Color
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 1, g: 1, b: 1, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 6
+        PropertyName: Wind settings
+        PropertyDescription: Wind settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: InitialBend
+        PropertyDescription: Initial Bend
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 1
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Stiffness
+        PropertyDescription: Stiffness
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 1
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Drag
+        PropertyDescription: Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 4
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDrag
+        PropertyDescription: Shiver Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.01
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDirectionality
+        PropertyDescription: Shiver Directionality
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.705
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      Heading: Nature Manufacture tree
+      Description: 
+      SupportsInstantIndirect: 1
+      LODFadeCrossfade: 0
+      LODFadePercentage: 0
+      SampleWind: 0
+      UpdateWind: 0
+      DynamicHUE: 0
+      BillboardSnow: 0
+      BillboardHDWind: 1
+      OverrideBillboardAtlasShader: 
+      OverrideBillboardAtlasNormalShader: 
+    UseTerrainSourceIncludeRule: 0
+    TerrainSourceIncludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    UseTerrainSourceExcludeRule: 0
+    TerrainSourceExcludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    DisableLOD: 0
+    LODFactor: 1
+    UseDistanceFalloff: 0
+    DistanceFalloffStartDistance: 0.4
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    RuntimePrefabRuleList: []
+  - VegetationItemID: 1bb95811-def0-430d-89bc-6e4b7f8aaafe
+    Name: flower_chamomile_01_detailed_2
+    VegetationType: 0
+    PrefabType: 0
+    VegetationRenderMode: 2
+    EnableRuntimeSpawn: 1
+    DisableShadows: 0
+    VegetationPrefab: {fileID: 100000, guid: 3a2cc4f8ab916ad41940061d02ae9c45, type: 3}
+    VegetationTexture: {fileID: 0}
+    VegetationGuid: 3a2cc4f8ab916ad41940061d02ae9c45
+    SampleDistance: 1.2520782
+    Density: 1
+    RandomizePosition: 1
+    UseVegetationMasksOnStorage: 0
+    UseSamplePointOffset: 0
+    SamplePointMinOffset: 3
+    SamplePointMaxOffset: 5
+    Offset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 3
+    Bounds:
+      m_Center: {x: 0.02209936, y: 0.20519279, z: 0.044538207}
+      m_Extent: {x: 0.16680998, y: 0.24606152, z: 0.1506645}
+    ScaleMultiplier: {x: 1, y: 1, z: 1}
+    RenderDistanceFactor: 1
+    Seed: 18
+    MinScale: 0.8
+    MaxScale: 1.2
+    YScale: 1
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderSize: {x: 1, y: 1, z: 1}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderUseForBake: 1
+    ColliderDistanceFactor: 0.15
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardNormalTexture: {fileID: 0}
+    BillboardAoTexture: {fileID: 0}
+    BillboardSourceLODLevel: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    BillboardWindSpeed: 1
+    BillboardSmoothness: 0.2
+    BillboardMetallic: 0.5
+    BillboardSpecular: 0
+    BillboardOcclusion: 1
+    BillboardNormalStrength: 1
+    BillboardRecalculateNormals: 0
+    BillboardNormalBlendFactor: 1
+    BillboardRenderMode: 1
+    UseHeightRule: 1
+    MinHeight: 6
+    MaxHeight: 1500
+    UseAdvancedHeightRule: 0
+    MaxCurveHeight: 500
+    HeightRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseSteepnessRule: 1
+    MinSteepness: 0
+    MaxSteepness: 30
+    UseAdvancedSteepnessRule: 0
+    SteepnessRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoiseCutoff: 0
+    NoiseCutoffValue: 0.5
+    NoiseCutoffScale: 5
+    NoiseCutoffInverse: 1
+    NoiseCutoffOffset: {x: 0, y: 0}
+    UseNoiseDensity: 1
+    NoiseDensityScale: 5
+    NoiseDensityInverse: 1
+    NoiseDensityOffset: {x: 0, y: 0}
+    UseNoiseScaleRule: 0
+    NoiseScaleMinScale: 0.7
+    NoiseScaleMaxScale: 1.3
+    NoiseScaleScale: 5
+    NoiseScaleInverse: 1
+    NoiseScaleOffset: {x: 0, y: 0}
+    UseBiomeEdgeScaleRule: 0
+    BiomeEdgeScaleDistance: 10
+    BiomeEdgeScaleMinScale: 0.3
+    BiomeEdgeScaleMaxScale: 1
+    BiomeEdgeScaleInverse: 0
+    UseBiomeEdgeIncludeRule: 0
+    BiomeEdgeIncludeDistance: 10
+    BiomeEdgeIncludeInverse: 0
+    UseConcaveLocationRule: 0
+    ConcaveLocationInverse: 0
+    ConcaveLoactionMinHeightDifference: 1
+    ConcaveLoactionDistance: 3
+    ConcaveLoactionAverage: 1
+    UseTerrainTextureIncludeRules: 0
+    TerrainTextureIncludeRuleList: []
+    UseTerrainTextureExcludeRules: 0
+    TerrainTextureExcludeRuleList: []
+    UseTextureMaskIncludeRules: 0
+    TextureMaskIncludeRuleList: []
+    UseTextureMaskExcludeRules: 0
+    TextureMaskExcludeRuleList: []
+    ShaderName: NatureManufacture Shaders/Grass/Advanced Grass Specular
+    ShaderControllerSettings:
+      ControlerPropertyList:
+      - SerializedControlerPropertyType: 6
+        PropertyName: Foliage settings
+        PropertyDescription: Foliage settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: HealthyColorTint
+        PropertyDescription: Healthy color tint
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.875, g: 0.875, b: 0.875, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: DryColorTint
+        PropertyDescription: Dry color tint
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ColorNoiseSpread
+        PropertyDescription: Color noise spread
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 15
+        FloatMinValue: 1
+        FloatMaxValue: 150
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: AlphaCutoff
+        PropertyDescription: Alpha cutoff
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.188
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 6
+        PropertyName: Wind settings
+        PropertyDescription: Wind settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: InitialBend
+        PropertyDescription: Initial Bend
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 1
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Stiffness
+        PropertyDescription: Stiffness
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.63
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Drag
+        PropertyDescription: Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 4
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDrag
+        PropertyDescription: Shiver Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.07
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDirectionality
+        PropertyDescription: Shiver Directionality
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.647
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      Heading: Nature Manufacture Advanced Grass
+      Description: 
+      SupportsInstantIndirect: 1
+      LODFadeCrossfade: 0
+      LODFadePercentage: 0
+      SampleWind: 0
+      UpdateWind: 0
+      DynamicHUE: 0
+      BillboardSnow: 0
+      BillboardHDWind: 0
+      OverrideBillboardAtlasShader: 
+      OverrideBillboardAtlasNormalShader: 
+    UseTerrainSourceIncludeRule: 0
+    TerrainSourceIncludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    UseTerrainSourceExcludeRule: 0
+    TerrainSourceExcludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    DisableLOD: 0
+    LODFactor: 1
+    UseDistanceFalloff: 0
+    DistanceFalloffStartDistance: 0.4
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    RuntimePrefabRuleList: []
+  - VegetationItemID: ec3ff4ed-8f91-4b99-a7da-b6fbcae82300
+    Name: flower_common_poppy_01_detailed_1
+    VegetationType: 0
+    PrefabType: 0
+    VegetationRenderMode: 2
+    EnableRuntimeSpawn: 1
+    DisableShadows: 0
+    VegetationPrefab: {fileID: 100000, guid: ef669ab43e7620945836c50bf8589d69, type: 3}
+    VegetationTexture: {fileID: 0}
+    VegetationGuid: ef669ab43e7620945836c50bf8589d69
+    SampleDistance: 1.0763004
+    Density: 1
+    RandomizePosition: 1
+    UseVegetationMasksOnStorage: 0
+    UseSamplePointOffset: 0
+    SamplePointMinOffset: 3
+    SamplePointMaxOffset: 5
+    Offset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 3
+    Bounds:
+      m_Center: {x: 0.008026063, y: 0.3200614, z: 0.0023333132}
+      m_Extent: {x: 0.1612208, y: 0.3388247, z: 0.18091702}
+    ScaleMultiplier: {x: 1, y: 1, z: 1}
+    RenderDistanceFactor: 1
+    Seed: 62
+    MinScale: 0.8
+    MaxScale: 1.2
+    YScale: 1
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderSize: {x: 1, y: 1, z: 1}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderUseForBake: 1
+    ColliderDistanceFactor: 0.15
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardNormalTexture: {fileID: 0}
+    BillboardAoTexture: {fileID: 0}
+    BillboardSourceLODLevel: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    BillboardWindSpeed: 1
+    BillboardSmoothness: 0.2
+    BillboardMetallic: 0.5
+    BillboardSpecular: 0
+    BillboardOcclusion: 1
+    BillboardNormalStrength: 1
+    BillboardRecalculateNormals: 0
+    BillboardNormalBlendFactor: 1
+    BillboardRenderMode: 1
+    UseHeightRule: 1
+    MinHeight: 4
+    MaxHeight: 1500
+    UseAdvancedHeightRule: 0
+    MaxCurveHeight: 500
+    HeightRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseSteepnessRule: 1
+    MinSteepness: 0
+    MaxSteepness: 30
+    UseAdvancedSteepnessRule: 0
+    SteepnessRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoiseCutoff: 0
+    NoiseCutoffValue: 0.5
+    NoiseCutoffScale: 5
+    NoiseCutoffInverse: 0
+    NoiseCutoffOffset: {x: 0, y: 0}
+    UseNoiseDensity: 1
+    NoiseDensityScale: 5
+    NoiseDensityInverse: 0
+    NoiseDensityOffset: {x: 0, y: 0}
+    UseNoiseScaleRule: 0
+    NoiseScaleMinScale: 0.7
+    NoiseScaleMaxScale: 1.3
+    NoiseScaleScale: 5
+    NoiseScaleInverse: 0
+    NoiseScaleOffset: {x: 0, y: 0}
+    UseBiomeEdgeScaleRule: 0
+    BiomeEdgeScaleDistance: 10
+    BiomeEdgeScaleMinScale: 0.3
+    BiomeEdgeScaleMaxScale: 1
+    BiomeEdgeScaleInverse: 0
+    UseBiomeEdgeIncludeRule: 0
+    BiomeEdgeIncludeDistance: 10
+    BiomeEdgeIncludeInverse: 0
+    UseConcaveLocationRule: 0
+    ConcaveLocationInverse: 0
+    ConcaveLoactionMinHeightDifference: 1
+    ConcaveLoactionDistance: 3
+    ConcaveLoactionAverage: 1
+    UseTerrainTextureIncludeRules: 0
+    TerrainTextureIncludeRuleList: []
+    UseTerrainTextureExcludeRules: 0
+    TerrainTextureExcludeRuleList: []
+    UseTextureMaskIncludeRules: 0
+    TextureMaskIncludeRuleList: []
+    UseTextureMaskExcludeRules: 0
+    TextureMaskExcludeRuleList: []
+    ShaderName: NatureManufacture Shaders/Grass/Advanced Grass Specular
+    ShaderControllerSettings:
+      ControlerPropertyList:
+      - SerializedControlerPropertyType: 6
+        PropertyName: Foliage settings
+        PropertyDescription: Foliage settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: HealthyColorTint
+        PropertyDescription: Healthy color tint
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.875, g: 0.875, b: 0.875, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: DryColorTint
+        PropertyDescription: Dry color tint
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ColorNoiseSpread
+        PropertyDescription: Color noise spread
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 15
+        FloatMinValue: 1
+        FloatMaxValue: 150
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: AlphaCutoff
+        PropertyDescription: Alpha cutoff
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.25
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 6
+        PropertyName: Wind settings
+        PropertyDescription: Wind settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: InitialBend
+        PropertyDescription: Initial Bend
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 1
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Stiffness
+        PropertyDescription: Stiffness
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.64
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Drag
+        PropertyDescription: Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.72
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDrag
+        PropertyDescription: Shiver Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.03
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDirectionality
+        PropertyDescription: Shiver Directionality
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.654
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      Heading: Nature Manufacture Advanced Grass
+      Description: 
+      SupportsInstantIndirect: 1
+      LODFadeCrossfade: 0
+      LODFadePercentage: 0
+      SampleWind: 0
+      UpdateWind: 0
+      DynamicHUE: 0
+      BillboardSnow: 0
+      BillboardHDWind: 0
+      OverrideBillboardAtlasShader: 
+      OverrideBillboardAtlasNormalShader: 
+    UseTerrainSourceIncludeRule: 0
+    TerrainSourceIncludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    UseTerrainSourceExcludeRule: 0
+    TerrainSourceExcludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    DisableLOD: 0
+    LODFactor: 1
+    UseDistanceFalloff: 0
+    DistanceFalloffStartDistance: 0.4
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    RuntimePrefabRuleList: []
+  - VegetationItemID: 854c6d75-95bb-436f-a828-a6b81182562c
+    Name: flower_common_Saint_John's_wort_01_detailed_1
+    VegetationType: 0
+    PrefabType: 0
+    VegetationRenderMode: 2
+    EnableRuntimeSpawn: 1
+    DisableShadows: 0
+    VegetationPrefab: {fileID: 100000, guid: be6996b39cc69b448a0eda9915bef288, type: 3}
+    VegetationTexture: {fileID: 0}
+    VegetationGuid: be6996b39cc69b448a0eda9915bef288
+    SampleDistance: 1.1293483
+    Density: 1
+    RandomizePosition: 1
+    UseVegetationMasksOnStorage: 0
+    UseSamplePointOffset: 0
+    SamplePointMinOffset: 3
+    SamplePointMaxOffset: 5
+    Offset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 3
+    Bounds:
+      m_Center: {x: 0.013122678, y: 0.15770149, z: -0.011801094}
+      m_Extent: {x: 0.15863374, y: 0.19461977, z: 0.19076675}
+    ScaleMultiplier: {x: 1, y: 1, z: 1}
+    RenderDistanceFactor: 1
+    Seed: 50
+    MinScale: 0.8
+    MaxScale: 1.2
+    YScale: 1
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderSize: {x: 1, y: 1, z: 1}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderUseForBake: 1
+    ColliderDistanceFactor: 0.15
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardNormalTexture: {fileID: 0}
+    BillboardAoTexture: {fileID: 0}
+    BillboardSourceLODLevel: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    BillboardWindSpeed: 1
+    BillboardSmoothness: 0.2
+    BillboardMetallic: 0.5
+    BillboardSpecular: 0
+    BillboardOcclusion: 1
+    BillboardNormalStrength: 1
+    BillboardRecalculateNormals: 0
+    BillboardNormalBlendFactor: 1
+    BillboardRenderMode: 1
+    UseHeightRule: 1
+    MinHeight: 15
+    MaxHeight: 1500
+    UseAdvancedHeightRule: 0
+    MaxCurveHeight: 500
+    HeightRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseSteepnessRule: 1
+    MinSteepness: 0
+    MaxSteepness: 30
+    UseAdvancedSteepnessRule: 0
+    SteepnessRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoiseCutoff: 0
+    NoiseCutoffValue: 0.5
+    NoiseCutoffScale: 5
+    NoiseCutoffInverse: 0
+    NoiseCutoffOffset: {x: 0, y: 0}
+    UseNoiseDensity: 1
+    NoiseDensityScale: 5
+    NoiseDensityInverse: 0
+    NoiseDensityOffset: {x: 0, y: 0}
+    UseNoiseScaleRule: 0
+    NoiseScaleMinScale: 0.7
+    NoiseScaleMaxScale: 1.3
+    NoiseScaleScale: 5
+    NoiseScaleInverse: 0
+    NoiseScaleOffset: {x: 0, y: 0}
+    UseBiomeEdgeScaleRule: 0
+    BiomeEdgeScaleDistance: 10
+    BiomeEdgeScaleMinScale: 0.3
+    BiomeEdgeScaleMaxScale: 1
+    BiomeEdgeScaleInverse: 0
+    UseBiomeEdgeIncludeRule: 0
+    BiomeEdgeIncludeDistance: 10
+    BiomeEdgeIncludeInverse: 0
+    UseConcaveLocationRule: 0
+    ConcaveLocationInverse: 0
+    ConcaveLoactionMinHeightDifference: 1
+    ConcaveLoactionDistance: 3
+    ConcaveLoactionAverage: 1
+    UseTerrainTextureIncludeRules: 0
+    TerrainTextureIncludeRuleList: []
+    UseTerrainTextureExcludeRules: 0
+    TerrainTextureExcludeRuleList: []
+    UseTextureMaskIncludeRules: 0
+    TextureMaskIncludeRuleList: []
+    UseTextureMaskExcludeRules: 0
+    TextureMaskExcludeRuleList: []
+    ShaderName: NatureManufacture Shaders/Grass/Advanced Grass Specular
+    ShaderControllerSettings:
+      ControlerPropertyList:
+      - SerializedControlerPropertyType: 6
+        PropertyName: Foliage settings
+        PropertyDescription: Foliage settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: HealthyColorTint
+        PropertyDescription: Healthy color tint
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.875, g: 0.875, b: 0.875, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: DryColorTint
+        PropertyDescription: Dry color tint
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ColorNoiseSpread
+        PropertyDescription: Color noise spread
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 15
+        FloatMinValue: 1
+        FloatMaxValue: 150
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: AlphaCutoff
+        PropertyDescription: Alpha cutoff
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.326
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 6
+        PropertyName: Wind settings
+        PropertyDescription: Wind settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: InitialBend
+        PropertyDescription: Initial Bend
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 1
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Stiffness
+        PropertyDescription: Stiffness
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.82
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Drag
+        PropertyDescription: Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 10
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDrag
+        PropertyDescription: Shiver Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.05
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDirectionality
+        PropertyDescription: Shiver Directionality
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.64
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      Heading: Nature Manufacture Advanced Grass
+      Description: 
+      SupportsInstantIndirect: 1
+      LODFadeCrossfade: 0
+      LODFadePercentage: 0
+      SampleWind: 0
+      UpdateWind: 0
+      DynamicHUE: 0
+      BillboardSnow: 0
+      BillboardHDWind: 0
+      OverrideBillboardAtlasShader: 
+      OverrideBillboardAtlasNormalShader: 
+    UseTerrainSourceIncludeRule: 0
+    TerrainSourceIncludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    UseTerrainSourceExcludeRule: 0
+    TerrainSourceExcludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    DisableLOD: 0
+    LODFactor: 1
+    UseDistanceFalloff: 0
+    DistanceFalloffStartDistance: 0.4
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    RuntimePrefabRuleList: []
+  - VegetationItemID: 659649a8-4e2b-42da-927b-b1b94c42b3f4
+    Name: grass_meadow_01_detailed_2
+    VegetationType: 0
+    PrefabType: 0
+    VegetationRenderMode: 2
+    EnableRuntimeSpawn: 1
+    DisableShadows: 0
+    VegetationPrefab: {fileID: 100000, guid: 6507f64ca6305134288792eef84902eb, type: 3}
+    VegetationTexture: {fileID: 0}
+    VegetationGuid: 6507f64ca6305134288792eef84902eb
+    SampleDistance: 1.0011872
+    Density: 1
+    RandomizePosition: 1
+    UseVegetationMasksOnStorage: 0
+    UseSamplePointOffset: 0
+    SamplePointMinOffset: 3
+    SamplePointMaxOffset: 5
+    Offset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 3
+    Bounds:
+      m_Center: {x: -0.008547664, y: 0.7776573, z: 0.04028678}
+      m_Extent: {x: 0.37881136, y: 0.85110104, z: 0.42477584}
+    ScaleMultiplier: {x: 1, y: 1, z: 1}
+    RenderDistanceFactor: 1
+    Seed: 68
+    MinScale: 0.8
+    MaxScale: 1.2
+    YScale: 1
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderSize: {x: 1, y: 1, z: 1}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderUseForBake: 1
+    ColliderDistanceFactor: 0.15
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardNormalTexture: {fileID: 0}
+    BillboardAoTexture: {fileID: 0}
+    BillboardSourceLODLevel: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    BillboardWindSpeed: 1
+    BillboardSmoothness: 0.2
+    BillboardMetallic: 0.5
+    BillboardSpecular: 0
+    BillboardOcclusion: 1
+    BillboardNormalStrength: 1
+    BillboardRecalculateNormals: 0
+    BillboardNormalBlendFactor: 1
+    BillboardRenderMode: 1
+    UseHeightRule: 1
+    MinHeight: 5
+    MaxHeight: 12
+    UseAdvancedHeightRule: 0
+    MaxCurveHeight: 500
+    HeightRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseSteepnessRule: 1
+    MinSteepness: 0
+    MaxSteepness: 30
+    UseAdvancedSteepnessRule: 0
+    SteepnessRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoiseCutoff: 0
+    NoiseCutoffValue: 0.5
+    NoiseCutoffScale: 5
+    NoiseCutoffInverse: 0
+    NoiseCutoffOffset: {x: 0, y: 0}
+    UseNoiseDensity: 1
+    NoiseDensityScale: 5
+    NoiseDensityInverse: 0
+    NoiseDensityOffset: {x: 0, y: 0}
+    UseNoiseScaleRule: 0
+    NoiseScaleMinScale: 0.7
+    NoiseScaleMaxScale: 1.3
+    NoiseScaleScale: 5
+    NoiseScaleInverse: 0
+    NoiseScaleOffset: {x: 0, y: 0}
+    UseBiomeEdgeScaleRule: 0
+    BiomeEdgeScaleDistance: 10
+    BiomeEdgeScaleMinScale: 0.3
+    BiomeEdgeScaleMaxScale: 1
+    BiomeEdgeScaleInverse: 0
+    UseBiomeEdgeIncludeRule: 0
+    BiomeEdgeIncludeDistance: 10
+    BiomeEdgeIncludeInverse: 0
+    UseConcaveLocationRule: 0
+    ConcaveLocationInverse: 0
+    ConcaveLoactionMinHeightDifference: 1
+    ConcaveLoactionDistance: 3
+    ConcaveLoactionAverage: 1
+    UseTerrainTextureIncludeRules: 0
+    TerrainTextureIncludeRuleList: []
+    UseTerrainTextureExcludeRules: 0
+    TerrainTextureExcludeRuleList: []
+    UseTextureMaskIncludeRules: 0
+    TextureMaskIncludeRuleList: []
+    UseTextureMaskExcludeRules: 0
+    TextureMaskExcludeRuleList: []
+    ShaderName: NatureManufacture Shaders/Grass/Advanced Grass Specular
+    ShaderControllerSettings:
+      ControlerPropertyList:
+      - SerializedControlerPropertyType: 6
+        PropertyName: Foliage settings
+        PropertyDescription: Foliage settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: HealthyColorTint
+        PropertyDescription: Healthy color tint
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.875, g: 0.875, b: 0.875, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: DryColorTint
+        PropertyDescription: Dry color tint
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ColorNoiseSpread
+        PropertyDescription: Color noise spread
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 15
+        FloatMinValue: 1
+        FloatMaxValue: 150
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: AlphaCutoff
+        PropertyDescription: Alpha cutoff
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.178
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 6
+        PropertyName: Wind settings
+        PropertyDescription: Wind settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: InitialBend
+        PropertyDescription: Initial Bend
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 1
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Stiffness
+        PropertyDescription: Stiffness
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.68
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Drag
+        PropertyDescription: Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.72
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDrag
+        PropertyDescription: Shiver Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.05
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDirectionality
+        PropertyDescription: Shiver Directionality
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.657
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      Heading: Nature Manufacture Advanced Grass
+      Description: 
+      SupportsInstantIndirect: 1
+      LODFadeCrossfade: 0
+      LODFadePercentage: 0
+      SampleWind: 0
+      UpdateWind: 0
+      DynamicHUE: 0
+      BillboardSnow: 0
+      BillboardHDWind: 0
+      OverrideBillboardAtlasShader: 
+      OverrideBillboardAtlasNormalShader: 
+    UseTerrainSourceIncludeRule: 0
+    TerrainSourceIncludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    UseTerrainSourceExcludeRule: 0
+    TerrainSourceExcludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    DisableLOD: 0
+    LODFactor: 1
+    UseDistanceFalloff: 0
+    DistanceFalloffStartDistance: 0.4
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    RuntimePrefabRuleList: []
+  - VegetationItemID: 43b3dafa-0db3-4c5f-9c69-ef6b8790ab7b
+    Name: grass_meadow_02_6
+    VegetationType: 0
+    PrefabType: 0
+    VegetationRenderMode: 2
+    EnableRuntimeSpawn: 1
+    DisableShadows: 0
+    VegetationPrefab: {fileID: 100000, guid: f50bbffdebd661a49a46852aebce2927, type: 3}
+    VegetationTexture: {fileID: 0}
+    VegetationGuid: f50bbffdebd661a49a46852aebce2927
+    SampleDistance: 1.2709935
+    Density: 1
+    RandomizePosition: 1
+    UseVegetationMasksOnStorage: 0
+    UseSamplePointOffset: 0
+    SamplePointMinOffset: 3
+    SamplePointMaxOffset: 5
+    Offset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 3
+    Bounds:
+      m_Center: {x: -0.051183462, y: 0.67941105, z: 0.00000008790282}
+      m_Extent: {x: 0.45548123, y: 0.75632954, z: 0.00000009087185}
+    ScaleMultiplier: {x: 1, y: 1, z: 1}
+    RenderDistanceFactor: 1
+    Seed: 30
+    MinScale: 0.8
+    MaxScale: 1.2
+    YScale: 1
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderSize: {x: 1, y: 1, z: 1}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderUseForBake: 1
+    ColliderDistanceFactor: 0.15
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardNormalTexture: {fileID: 0}
+    BillboardAoTexture: {fileID: 0}
+    BillboardSourceLODLevel: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    BillboardWindSpeed: 1
+    BillboardSmoothness: 0.2
+    BillboardMetallic: 0.5
+    BillboardSpecular: 0
+    BillboardOcclusion: 1
+    BillboardNormalStrength: 1
+    BillboardRecalculateNormals: 0
+    BillboardNormalBlendFactor: 1
+    BillboardRenderMode: 1
+    UseHeightRule: 1
+    MinHeight: 16
+    MaxHeight: 24
+    UseAdvancedHeightRule: 0
+    MaxCurveHeight: 500
+    HeightRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseSteepnessRule: 1
+    MinSteepness: 0
+    MaxSteepness: 30
+    UseAdvancedSteepnessRule: 0
+    SteepnessRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoiseCutoff: 0
+    NoiseCutoffValue: 0.5
+    NoiseCutoffScale: 5
+    NoiseCutoffInverse: 0
+    NoiseCutoffOffset: {x: 0, y: 0}
+    UseNoiseDensity: 1
+    NoiseDensityScale: 5
+    NoiseDensityInverse: 0
+    NoiseDensityOffset: {x: 0, y: 0}
+    UseNoiseScaleRule: 0
+    NoiseScaleMinScale: 0.7
+    NoiseScaleMaxScale: 1.3
+    NoiseScaleScale: 5
+    NoiseScaleInverse: 0
+    NoiseScaleOffset: {x: 0, y: 0}
+    UseBiomeEdgeScaleRule: 0
+    BiomeEdgeScaleDistance: 10
+    BiomeEdgeScaleMinScale: 0.3
+    BiomeEdgeScaleMaxScale: 1
+    BiomeEdgeScaleInverse: 0
+    UseBiomeEdgeIncludeRule: 0
+    BiomeEdgeIncludeDistance: 10
+    BiomeEdgeIncludeInverse: 0
+    UseConcaveLocationRule: 0
+    ConcaveLocationInverse: 0
+    ConcaveLoactionMinHeightDifference: 1
+    ConcaveLoactionDistance: 3
+    ConcaveLoactionAverage: 1
+    UseTerrainTextureIncludeRules: 0
+    TerrainTextureIncludeRuleList: []
+    UseTerrainTextureExcludeRules: 0
+    TerrainTextureExcludeRuleList: []
+    UseTextureMaskIncludeRules: 0
+    TextureMaskIncludeRuleList: []
+    UseTextureMaskExcludeRules: 0
+    TextureMaskExcludeRuleList: []
+    ShaderName: NatureManufacture Shaders/Grass/Advanced Grass Specular
+    ShaderControllerSettings:
+      ControlerPropertyList:
+      - SerializedControlerPropertyType: 6
+        PropertyName: Foliage settings
+        PropertyDescription: Foliage settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: HealthyColorTint
+        PropertyDescription: Healthy color tint
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.875, g: 0.875, b: 0.875, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: DryColorTint
+        PropertyDescription: Dry color tint
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ColorNoiseSpread
+        PropertyDescription: Color noise spread
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 15
+        FloatMinValue: 1
+        FloatMaxValue: 150
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: AlphaCutoff
+        PropertyDescription: Alpha cutoff
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.254
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 6
+        PropertyName: Wind settings
+        PropertyDescription: Wind settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: InitialBend
+        PropertyDescription: Initial Bend
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 1
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Stiffness
+        PropertyDescription: Stiffness
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.67
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Drag
+        PropertyDescription: Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.72
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDrag
+        PropertyDescription: Shiver Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.05
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDirectionality
+        PropertyDescription: Shiver Directionality
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.65
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      Heading: Nature Manufacture Advanced Grass
+      Description: 
+      SupportsInstantIndirect: 1
+      LODFadeCrossfade: 0
+      LODFadePercentage: 0
+      SampleWind: 0
+      UpdateWind: 0
+      DynamicHUE: 0
+      BillboardSnow: 0
+      BillboardHDWind: 0
+      OverrideBillboardAtlasShader: 
+      OverrideBillboardAtlasNormalShader: 
+    UseTerrainSourceIncludeRule: 0
+    TerrainSourceIncludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    UseTerrainSourceExcludeRule: 0
+    TerrainSourceExcludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    DisableLOD: 0
+    LODFactor: 1
+    UseDistanceFalloff: 0
+    DistanceFalloffStartDistance: 0.4
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    RuntimePrefabRuleList: []
+  - VegetationItemID: 5af61ef9-dbab-4b59-a79d-de6d67a25547
+    Name: grass_meadow_02_detailed_1
+    VegetationType: 0
+    PrefabType: 0
+    VegetationRenderMode: 2
+    EnableRuntimeSpawn: 1
+    DisableShadows: 0
+    VegetationPrefab: {fileID: 100000, guid: 128967063e31328478d38a91e2e080be, type: 3}
+    VegetationTexture: {fileID: 0}
+    VegetationGuid: 128967063e31328478d38a91e2e080be
+    SampleDistance: 0.9078041
+    Density: 1
+    RandomizePosition: 1
+    UseVegetationMasksOnStorage: 0
+    UseSamplePointOffset: 0
+    SamplePointMinOffset: 3
+    SamplePointMaxOffset: 5
+    Offset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 3
+    Bounds:
+      m_Center: {x: -0.032417327, y: 0.23575327, z: 0.029364526}
+      m_Extent: {x: 0.35070664, y: 0.3061168, z: 0.29887307}
+    ScaleMultiplier: {x: 1, y: 1, z: 1}
+    RenderDistanceFactor: 1
+    Seed: 53
+    MinScale: 0.8
+    MaxScale: 1.2
+    YScale: 1
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderSize: {x: 1, y: 1, z: 1}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderUseForBake: 1
+    ColliderDistanceFactor: 0.15
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardNormalTexture: {fileID: 0}
+    BillboardAoTexture: {fileID: 0}
+    BillboardSourceLODLevel: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    BillboardWindSpeed: 1
+    BillboardSmoothness: 0.2
+    BillboardMetallic: 0.5
+    BillboardSpecular: 0
+    BillboardOcclusion: 1
+    BillboardNormalStrength: 1
+    BillboardRecalculateNormals: 0
+    BillboardNormalBlendFactor: 1
+    BillboardRenderMode: 1
+    UseHeightRule: 1
+    MinHeight: 20
+    MaxHeight: 1500
+    UseAdvancedHeightRule: 0
+    MaxCurveHeight: 500
+    HeightRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseSteepnessRule: 1
+    MinSteepness: 0
+    MaxSteepness: 30
+    UseAdvancedSteepnessRule: 0
+    SteepnessRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoiseCutoff: 0
+    NoiseCutoffValue: 0.5
+    NoiseCutoffScale: 5
+    NoiseCutoffInverse: 1
+    NoiseCutoffOffset: {x: 0, y: 0}
+    UseNoiseDensity: 1
+    NoiseDensityScale: 5
+    NoiseDensityInverse: 1
+    NoiseDensityOffset: {x: 0, y: 0}
+    UseNoiseScaleRule: 0
+    NoiseScaleMinScale: 0.7
+    NoiseScaleMaxScale: 1.3
+    NoiseScaleScale: 5
+    NoiseScaleInverse: 1
+    NoiseScaleOffset: {x: 0, y: 0}
+    UseBiomeEdgeScaleRule: 0
+    BiomeEdgeScaleDistance: 10
+    BiomeEdgeScaleMinScale: 0.3
+    BiomeEdgeScaleMaxScale: 1
+    BiomeEdgeScaleInverse: 0
+    UseBiomeEdgeIncludeRule: 0
+    BiomeEdgeIncludeDistance: 10
+    BiomeEdgeIncludeInverse: 0
+    UseConcaveLocationRule: 0
+    ConcaveLocationInverse: 0
+    ConcaveLoactionMinHeightDifference: 1
+    ConcaveLoactionDistance: 3
+    ConcaveLoactionAverage: 1
+    UseTerrainTextureIncludeRules: 0
+    TerrainTextureIncludeRuleList: []
+    UseTerrainTextureExcludeRules: 0
+    TerrainTextureExcludeRuleList: []
+    UseTextureMaskIncludeRules: 0
+    TextureMaskIncludeRuleList: []
+    UseTextureMaskExcludeRules: 0
+    TextureMaskExcludeRuleList: []
+    ShaderName: NatureManufacture Shaders/Grass/Advanced Grass Specular
+    ShaderControllerSettings:
+      ControlerPropertyList:
+      - SerializedControlerPropertyType: 6
+        PropertyName: Foliage settings
+        PropertyDescription: Foliage settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: HealthyColorTint
+        PropertyDescription: Healthy color tint
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.875, g: 0.875, b: 0.875, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 3
+        PropertyName: DryColorTint
+        PropertyDescription: Dry color tint
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ColorNoiseSpread
+        PropertyDescription: Color noise spread
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 15
+        FloatMinValue: 1
+        FloatMaxValue: 150
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: AlphaCutoff
+        PropertyDescription: Alpha cutoff
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.254
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 6
+        PropertyName: Wind settings
+        PropertyDescription: Wind settings
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0
+        FloatMinValue: 0
+        FloatMaxValue: 0
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: InitialBend
+        PropertyDescription: Initial Bend
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 1
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Stiffness
+        PropertyDescription: Stiffness
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.67
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: Drag
+        PropertyDescription: Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.72
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDrag
+        PropertyDescription: Shiver Drag
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.05
+        FloatMinValue: 0
+        FloatMaxValue: 10
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      - SerializedControlerPropertyType: 1
+        PropertyName: ShiverDirectionality
+        PropertyDescription: Shiver Directionality
+        PropertyInfo: 
+        IntValue: 0
+        IntMinValue: 0
+        IntMaxValue: 0
+        FloatValue: 0.65
+        FloatMinValue: 0
+        FloatMaxValue: 1
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        BoolValue: 0
+        TextureValue: {fileID: 0}
+        StringList: []
+      Heading: Nature Manufacture Advanced Grass
+      Description: 
+      SupportsInstantIndirect: 1
+      LODFadeCrossfade: 0
+      LODFadePercentage: 0
+      SampleWind: 0
+      UpdateWind: 0
+      DynamicHUE: 0
+      BillboardSnow: 0
+      BillboardHDWind: 0
+      OverrideBillboardAtlasShader: 
+      OverrideBillboardAtlasNormalShader: 
+    UseTerrainSourceIncludeRule: 0
+    TerrainSourceIncludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    UseTerrainSourceExcludeRule: 0
+    TerrainSourceExcludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    DisableLOD: 0
+    LODFactor: 1
+    UseDistanceFalloff: 0
+    DistanceFalloffStartDistance: 0.4
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    RuntimePrefabRuleList: []
+  - VegetationItemID: 01910581-307b-4228-98f4-14ac4b9f1501
+    Name: m_rock_02
+    VegetationType: 4
+    PrefabType: 0
+    VegetationRenderMode: 0
+    EnableRuntimeSpawn: 1
+    DisableShadows: 0
+    VegetationPrefab: {fileID: 100000, guid: 66a7b716f0dd39b4696047a0e93d1fb9, type: 3}
+    VegetationTexture: {fileID: 0}
+    VegetationGuid: 66a7b716f0dd39b4696047a0e93d1fb9
+    SampleDistance: 8.66391
+    Density: 1
+    RandomizePosition: 1
+    UseVegetationMasksOnStorage: 0
+    UseSamplePointOffset: 0
+    SamplePointMinOffset: 3
+    SamplePointMaxOffset: 5
+    Offset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 0
+    Bounds:
+      m_Center: {x: -0.0022171438, y: 0.0030076206, z: 0.0017091632}
+      m_Extent: {x: 0.32428846, y: 0.27372217, z: 0.3706802}
+    ScaleMultiplier: {x: 1, y: 1, z: 1}
+    RenderDistanceFactor: 1
+    Seed: 9
+    MinScale: 0.8
+    MaxScale: 1.2
+    YScale: 1
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderSize: {x: 1, y: 1, z: 1}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderUseForBake: 1
+    ColliderDistanceFactor: 0.15
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardNormalTexture: {fileID: 0}
+    BillboardAoTexture: {fileID: 0}
+    BillboardSourceLODLevel: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    BillboardWindSpeed: 1
+    BillboardSmoothness: 0.2
+    BillboardMetallic: 0.5
+    BillboardSpecular: 0
+    BillboardOcclusion: 1
+    BillboardNormalStrength: 1
+    BillboardRecalculateNormals: 0
+    BillboardNormalBlendFactor: 1
+    BillboardRenderMode: 1
+    UseHeightRule: 1
+    MinHeight: 15
+    MaxHeight: 1500
+    UseAdvancedHeightRule: 0
+    MaxCurveHeight: 500
+    HeightRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseSteepnessRule: 1
+    MinSteepness: 0
+    MaxSteepness: 30
+    UseAdvancedSteepnessRule: 0
+    SteepnessRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoiseCutoff: 0
+    NoiseCutoffValue: 0.5
+    NoiseCutoffScale: 5
+    NoiseCutoffInverse: 0
+    NoiseCutoffOffset: {x: 0, y: 0}
+    UseNoiseDensity: 1
+    NoiseDensityScale: 5
+    NoiseDensityInverse: 0
+    NoiseDensityOffset: {x: 0, y: 0}
+    UseNoiseScaleRule: 0
+    NoiseScaleMinScale: 0.7
+    NoiseScaleMaxScale: 1.3
+    NoiseScaleScale: 5
+    NoiseScaleInverse: 0
+    NoiseScaleOffset: {x: 0, y: 0}
+    UseBiomeEdgeScaleRule: 0
+    BiomeEdgeScaleDistance: 10
+    BiomeEdgeScaleMinScale: 0.3
+    BiomeEdgeScaleMaxScale: 1
+    BiomeEdgeScaleInverse: 0
+    UseBiomeEdgeIncludeRule: 0
+    BiomeEdgeIncludeDistance: 10
+    BiomeEdgeIncludeInverse: 0
+    UseConcaveLocationRule: 0
+    ConcaveLocationInverse: 0
+    ConcaveLoactionMinHeightDifference: 1
+    ConcaveLoactionDistance: 3
+    ConcaveLoactionAverage: 1
+    UseTerrainTextureIncludeRules: 0
+    TerrainTextureIncludeRuleList: []
+    UseTerrainTextureExcludeRules: 0
+    TerrainTextureExcludeRuleList: []
+    UseTextureMaskIncludeRules: 0
+    TextureMaskIncludeRuleList: []
+    UseTextureMaskExcludeRules: 0
+    TextureMaskExcludeRuleList: []
+    ShaderName: Standard
+    ShaderControllerSettings:
+      ControlerPropertyList: []
+      Heading: 
+      Description: 
+      SupportsInstantIndirect: 0
+      LODFadeCrossfade: 0
+      LODFadePercentage: 0
+      SampleWind: 0
+      UpdateWind: 0
+      DynamicHUE: 0
+      BillboardSnow: 0
+      BillboardHDWind: 0
+      OverrideBillboardAtlasShader: 
+      OverrideBillboardAtlasNormalShader: 
+    UseTerrainSourceIncludeRule: 0
+    TerrainSourceIncludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    UseTerrainSourceExcludeRule: 0
+    TerrainSourceExcludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    DisableLOD: 0
+    LODFactor: 1
+    UseDistanceFalloff: 0
+    DistanceFalloffStartDistance: 0.4
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    RuntimePrefabRuleList: []
+  - VegetationItemID: 23348409-4e7e-4a7e-b650-fdf0f42991f4
+    Name: Rock_07
+    VegetationType: 4
+    PrefabType: 0
+    VegetationRenderMode: 0
+    EnableRuntimeSpawn: 1
+    DisableShadows: 0
+    VegetationPrefab: {fileID: 100000, guid: 67dfc9a32229b7c40aaaf3a179e792c8, type: 3}
+    VegetationTexture: {fileID: 0}
+    VegetationGuid: 67dfc9a32229b7c40aaaf3a179e792c8
+    SampleDistance: 10.225786
+    Density: 1
+    RandomizePosition: 1
+    UseVegetationMasksOnStorage: 0
+    UseSamplePointOffset: 0
+    SamplePointMinOffset: 3
+    SamplePointMaxOffset: 5
+    Offset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    Rotation: 0
+    Bounds:
+      m_Center: {x: -0.0033932924, y: 0.0014497042, z: -0.0029995441}
+      m_Extent: {x: 0.6260783, y: 0.6018568, z: 0.5573995}
+    ScaleMultiplier: {x: 1, y: 1, z: 1}
+    RenderDistanceFactor: 1
+    Seed: 61
+    MinScale: 0.8
+    MaxScale: 1.2
+    YScale: 1
+    ColliderType: 0
+    ColliderRadius: 0.25
+    ColliderHeight: 2
+    ColliderOffset: {x: 0, y: 0, z: 0}
+    ColliderSize: {x: 1, y: 1, z: 1}
+    ColliderTrigger: 0
+    ColliderMesh: {fileID: 0}
+    ColliderUseForBake: 1
+    ColliderDistanceFactor: 0.15
+    NavMeshObstacleType: 0
+    NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
+    NavMeshObstacleSize: {x: 1, y: 1, z: 1}
+    NavMeshObstacleRadius: 0.5
+    NavMeshObstacleHeight: 2
+    NavMeshObstacleCarve: 1
+    UseBillboards: 1
+    BillboardQuality: 0
+    BillboardTexture: {fileID: 0}
+    BillboardNormalTexture: {fileID: 0}
+    BillboardAoTexture: {fileID: 0}
+    BillboardSourceLODLevel: 0
+    BillboardColorSpace: -1
+    BillboardBrightness: 1
+    BillboardCutoff: 0.2
+    BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
+    BillboardMipmapBias: -2
+    BillboardWindSpeed: 1
+    BillboardSmoothness: 0.2
+    BillboardMetallic: 0.5
+    BillboardSpecular: 0
+    BillboardOcclusion: 1
+    BillboardNormalStrength: 1
+    BillboardRecalculateNormals: 0
+    BillboardNormalBlendFactor: 1
+    BillboardRenderMode: 1
+    UseHeightRule: 1
+    MinHeight: 4
+    MaxHeight: 1500
+    UseAdvancedHeightRule: 0
+    MaxCurveHeight: 500
+    HeightRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseSteepnessRule: 1
+    MinSteepness: 0
+    MaxSteepness: 30
+    UseAdvancedSteepnessRule: 0
+    SteepnessRuleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoiseCutoff: 0
+    NoiseCutoffValue: 0.5
+    NoiseCutoffScale: 5
+    NoiseCutoffInverse: 0
+    NoiseCutoffOffset: {x: 0, y: 0}
+    UseNoiseDensity: 1
+    NoiseDensityScale: 5
+    NoiseDensityInverse: 0
+    NoiseDensityOffset: {x: 0, y: 0}
+    UseNoiseScaleRule: 0
+    NoiseScaleMinScale: 0.7
+    NoiseScaleMaxScale: 1.3
+    NoiseScaleScale: 5
+    NoiseScaleInverse: 0
+    NoiseScaleOffset: {x: 0, y: 0}
+    UseBiomeEdgeScaleRule: 0
+    BiomeEdgeScaleDistance: 10
+    BiomeEdgeScaleMinScale: 0.3
+    BiomeEdgeScaleMaxScale: 1
+    BiomeEdgeScaleInverse: 0
+    UseBiomeEdgeIncludeRule: 0
+    BiomeEdgeIncludeDistance: 10
+    BiomeEdgeIncludeInverse: 0
+    UseConcaveLocationRule: 0
+    ConcaveLocationInverse: 0
+    ConcaveLoactionMinHeightDifference: 1
+    ConcaveLoactionDistance: 3
+    ConcaveLoactionAverage: 1
+    UseTerrainTextureIncludeRules: 0
+    TerrainTextureIncludeRuleList: []
+    UseTerrainTextureExcludeRules: 0
+    TerrainTextureExcludeRuleList: []
+    UseTextureMaskIncludeRules: 0
+    TextureMaskIncludeRuleList: []
+    UseTextureMaskExcludeRules: 0
+    TextureMaskExcludeRuleList: []
+    ShaderName: Standard
+    ShaderControllerSettings:
+      ControlerPropertyList: []
+      Heading: 
+      Description: 
+      SupportsInstantIndirect: 0
+      LODFadeCrossfade: 0
+      LODFadePercentage: 0
+      SampleWind: 0
+      UpdateWind: 0
+      DynamicHUE: 0
+      BillboardSnow: 0
+      BillboardHDWind: 0
+      OverrideBillboardAtlasShader: 
+      OverrideBillboardAtlasNormalShader: 
+    UseTerrainSourceIncludeRule: 0
+    TerrainSourceIncludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    UseTerrainSourceExcludeRule: 0
+    TerrainSourceExcludeRule:
+      UseTerrainSourceID1: 0
+      UseTerrainSourceID2: 0
+      UseTerrainSourceID3: 0
+      UseTerrainSourceID4: 0
+      UseTerrainSourceID5: 0
+      UseTerrainSourceID6: 0
+      UseTerrainSourceID7: 0
+      UseTerrainSourceID8: 0
+    DisableLOD: 0
+    LODFactor: 1
+    UseDistanceFalloff: 0
+    DistanceFalloffStartDistance: 0.4
+    UseVegetationMask: 0
+    VegetationTypeIndex: 1
+    RuntimePrefabRuleList: []
+  TerrainTextureSettingsList:
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.17721519
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.0952381
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 0
+    Enabled: 1
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.16455697
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.31888735
+        value: 0.9946808
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.38481012
+        value: 0.5904255
+        inSlope: -4.6964946
+        outSlope: -4.6964946
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.67341775
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.17974684
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.36941177
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 1
+    Enabled: 1
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.123809524
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.25925925
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 2
+    Enabled: 1
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.06481481
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2685185
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.3148148
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 3
+    Enabled: 1
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 4
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 5
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 6
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 7
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 8
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 9
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 10
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 11
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 12
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 13
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 14
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  - TextureHeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TextureSteepnessCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseNoise: 0
+    NoiseScale: 5
+    TextureWeight: 1
+    NoiseOffset: {x: 0, y: 0}
+    InverseNoise: 0
+    TextureLayer: 15
+    Enabled: 0
+    LockTexture: 0
+    ConcaveEnable: 0
+    ConvexEnable: 0
+    ConcaveAverage: 1
+    ConcaveMinHeightDifference: 5
+    ConcaveDistance: 10
+    ConcaveMode: 0
+  TerrainTextureList:
+  - Texture: {fileID: 2800000, guid: de5cc7c4241bb9c46a87ed39b7d10005, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 0ea4eb0de0c23b54abde5b15775d0d33, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: c0afc3db06067e74d927639bbc04ae4e, type: 3}
+    TextureNormals: {fileID: 2800000, guid: d1a4190cdf5305443b36f6cd2498dd93, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: d2cebf7413e3c944281ee66dfe64149f, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 0c9bacd327357a94eb7663433cae1743, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 46f048d7d81f5864fa2a8d7fb353e13c, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 755731fe0fa883748860f1c58877ab0f, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: f5d1de47f0f760544a5596ceb8cc895f, type: 3}
+    TextureNormals: {fileID: 2800000, guid: af579c7a89d15d24eb8c925a43a236cf, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 9094edcf722b9e945a30556b7b3c2267, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 76009dac73d240246aa8d95e1737bc1d, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 76a07bcaabfcbc540827c83b89b5d443, type: 3}
+    TextureNormals: {fileID: 2800000, guid: fa98c104902c6a94d9bcf97cf14c6ec9, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 12ff3c37d59e28240a8f4643c3ead3d3, type: 3}
+    TextureNormals: {fileID: 2800000, guid: e5895469fa6440e4a876bf0672599e59, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: b10fe397edbc64b46ae592d5c8e44269, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 0eb32b1979b56264d85118c821d93d0b, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: b3a688c8751b80348b50c839645b1893, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 5b605e7f683caf04cbc4b1b74299d86d, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 7e207e25b8538e64db92b45fff5202b4, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 16eea386135f4b8439eea16dfd7ca628, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 9015343c9bb2cf74083767e91127c98d, type: 3}
+    TextureNormals: {fileID: 2800000, guid: aaf8aa487d001f44f9726eb6ee77d298, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 54ccdb26b5047c54b828ced4bf15ca47, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 4f43a7a68bcd11e4ea2d51248db9dc84, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: f3c7e12938d22604eb51dc02b394dd80, type: 3}
+    TextureNormals: {fileID: 2800000, guid: d06c19850ee13bf4086860fd02cf417d, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 44d39ff6e596ca34abae5799ba6f9315, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 518b2831db5054c40835af05a89c465b, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  - Texture: {fileID: 2800000, guid: 1d1ca9b1ff6a5ce4bbac09d301d51462, type: 3}
+    TextureNormals: {fileID: 2800000, guid: 7d7d59aaca791d54c9726e6b4e1feb61, type: 3}
+    TextureOcclusion: {fileID: 0}
+    TextureHeightMap: {fileID: 0}
+    TileSize: {x: 15, y: 15}
+    Offset: {x: 0, y: 0}
+  TextureMaskGroupList: []
+  TerrainTextureCount: 16
+  BiomeType: 0
+  BiomeSortOrder: 1

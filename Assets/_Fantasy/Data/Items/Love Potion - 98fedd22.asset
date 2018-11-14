@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5b97133324bb74591d77a3131baff4, type: 3}
+  m_Name: Love Potion - 98fedd22
+  m_EditorClassIdentifier: 
+  _parent: {fileID: 0}
+  _guid:
+    _guidBytes: 22ddfe98c11a8e43aee772b266c7d1b0
+  _name:
+    _key: adba3bb7-6885-4647-9202-5a7e45e61527
+  _description:
+    _key: f34a68d7-769c-42a6-80a5-8f920f44d220
+  _maxStackSize: 10
+  _layoutShape:
+    _shape:
+    - cols: 01
+  _buyPrice: []
+  _sellPrice: []
+  _weight: 0.2
+  _icon: {fileID: 21300000, guid: c587bb7402a5adf419a7ca5a5f57de0d, type: 3}
+  _worldModel: {fileID: 100000, guid: b54166b5d6d495f41a7d2b57975034e3, type: 2}

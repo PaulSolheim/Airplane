@@ -4,6 +4,14 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+3DForge/
+AwesomeTechnologies/
+Devdog/
+LuxWater/
+NatureManufacture Assets/
+PolygonCity/
+PolygonWestern/
+PolygonWesternFrontier/
 
 # Visual Studio cache directory
 .vs/
