@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d3f70e8a76806945b1b862c0334a021, type: 3}
   m_Name: MainLanguageDb
   m_EditorClassIdentifier: 
-  _serializedJsonString: '{"_lang":"en-US","_localizedStrings":{"NO_KEY":"","bdd261b6-06a8-41e5-a68a-157235352c87":"H","0421b9b8-e6c6-4fc8-92f7-4f4e221de924":"S","65644d27-f7c9-4386-9d44-4588e24c1be0":"Sword","54854148-78fb-44ab-bbee-c91b8a0ff752":"A","9e3ce036-06b2-4e74-ab55-bcd1c93ad0d0":"A
+  _serializedJsonString: '{"_lang":"en-US","_localizedStrings":{"bdd261b6-06a8-41e5-a68a-157235352c87":"H","0421b9b8-e6c6-4fc8-92f7-4f4e221de924":"S","65644d27-f7c9-4386-9d44-4588e24c1be0":"Sword","54854148-78fb-44ab-bbee-c91b8a0ff752":"A","9e3ce036-06b2-4e74-ab55-bcd1c93ad0d0":"A
     simple sword","90d66923-8627-4695-ad16-1481e83472dd":"L","c4ba024b-c208-4b0c-8c4e-4b1230b5887d":"Light
     Sword","7c34a189-7096-4590-a1aa-75596c9d8aff":"G","139ca492-7ac7-414e-8536-16dd581b4791":"Gold","fc126a60-2b2f-421b-ae8c-4130488e6cb7":"G","a5212cb8-f93d-40c3-b0e8-757b8c15c976":"Gold","43ea6ac2-568a-453b-bf2b-37eda2907d14":"G","b7af2ad3-f6f6-4e23-b861-986014985d05":"Gems","5453e80e-5742-4578-8aa8-5c296dffecf2":"G","19c0745e-6deb-4525-b7b5-042150fd53b5":"Gems","a773a75a-8773-4103-9943-dac0539725c7":"Head","d0ef5c8b-5f66-4f9a-8a82-6be23cef12fc":"H","0bdd09ea-12a2-4eb6-9e3b-f8920d24ea1a":"LeftHand","f157409b-2bf4-4b51-8c96-ae75493185d2":"F","1534e8a2-4377-4eaa-9404-9eaa26744ec0":"RightHand","db120efa-a9b5-4a1a-a734-cef5a234157a":"H","45209d2e-3c66-4a36-a091-150afa1b6cc3":"Healing
     Potion","362abd96-14dc-49a2-9349-03ec7ba988de":"H","48d8ae04-4249-4ad5-bd37-1c38b0a18b1f":"Bring
