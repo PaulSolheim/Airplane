@@ -51,6 +51,7 @@ MonoBehaviour:
     ColliderMesh: {fileID: 0}
     ColliderUseForBake: 1
     ColliderDistanceFactor: 0.15
+    ColliderTag: 
     NavMeshObstacleType: 0
     NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
     NavMeshObstacleSize: {x: 1, y: 1, z: 1}
@@ -78,6 +79,7 @@ MonoBehaviour:
     BillboardRecalculateNormals: 0
     BillboardNormalBlendFactor: 1
     BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
     UseHeightRule: 1
     MinHeight: 7
     MaxHeight: 1500
@@ -405,6 +407,7 @@ MonoBehaviour:
     ColliderMesh: {fileID: 0}
     ColliderUseForBake: 1
     ColliderDistanceFactor: 0.15
+    ColliderTag: 
     NavMeshObstacleType: 0
     NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
     NavMeshObstacleSize: {x: 1, y: 1, z: 1}
@@ -432,6 +435,7 @@ MonoBehaviour:
     BillboardRecalculateNormals: 0
     BillboardNormalBlendFactor: 1
     BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
     UseHeightRule: 1
     MinHeight: 8
     MaxHeight: 22
@@ -759,6 +763,7 @@ MonoBehaviour:
     ColliderMesh: {fileID: 0}
     ColliderUseForBake: 1
     ColliderDistanceFactor: 0.15
+    ColliderTag: 
     NavMeshObstacleType: 0
     NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
     NavMeshObstacleSize: {x: 1, y: 1, z: 1}
@@ -786,6 +791,7 @@ MonoBehaviour:
     BillboardRecalculateNormals: 0
     BillboardNormalBlendFactor: 1
     BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
     UseHeightRule: 1
     MinHeight: 6
     MaxHeight: 1500
@@ -1113,6 +1119,7 @@ MonoBehaviour:
     ColliderMesh: {fileID: 0}
     ColliderUseForBake: 1
     ColliderDistanceFactor: 0.15
+    ColliderTag: 
     NavMeshObstacleType: 0
     NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
     NavMeshObstacleSize: {x: 1, y: 1, z: 1}
@@ -1140,6 +1147,7 @@ MonoBehaviour:
     BillboardRecalculateNormals: 0
     BillboardNormalBlendFactor: 1
     BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
     UseHeightRule: 1
     MinHeight: 4
     MaxHeight: 1500
@@ -1467,6 +1475,7 @@ MonoBehaviour:
     ColliderMesh: {fileID: 0}
     ColliderUseForBake: 1
     ColliderDistanceFactor: 0.15
+    ColliderTag: 
     NavMeshObstacleType: 0
     NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
     NavMeshObstacleSize: {x: 1, y: 1, z: 1}
@@ -1494,6 +1503,7 @@ MonoBehaviour:
     BillboardRecalculateNormals: 0
     BillboardNormalBlendFactor: 1
     BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
     UseHeightRule: 1
     MinHeight: 15
     MaxHeight: 1500
@@ -1821,6 +1831,7 @@ MonoBehaviour:
     ColliderMesh: {fileID: 0}
     ColliderUseForBake: 1
     ColliderDistanceFactor: 0.15
+    ColliderTag: 
     NavMeshObstacleType: 0
     NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
     NavMeshObstacleSize: {x: 1, y: 1, z: 1}
@@ -1848,6 +1859,7 @@ MonoBehaviour:
     BillboardRecalculateNormals: 0
     BillboardNormalBlendFactor: 1
     BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
     UseHeightRule: 1
     MinHeight: 5
     MaxHeight: 12
@@ -2175,6 +2187,7 @@ MonoBehaviour:
     ColliderMesh: {fileID: 0}
     ColliderUseForBake: 1
     ColliderDistanceFactor: 0.15
+    ColliderTag: 
     NavMeshObstacleType: 0
     NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
     NavMeshObstacleSize: {x: 1, y: 1, z: 1}
@@ -2202,6 +2215,7 @@ MonoBehaviour:
     BillboardRecalculateNormals: 0
     BillboardNormalBlendFactor: 1
     BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
     UseHeightRule: 1
     MinHeight: 16
     MaxHeight: 24
@@ -2529,6 +2543,7 @@ MonoBehaviour:
     ColliderMesh: {fileID: 0}
     ColliderUseForBake: 1
     ColliderDistanceFactor: 0.15
+    ColliderTag: 
     NavMeshObstacleType: 0
     NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
     NavMeshObstacleSize: {x: 1, y: 1, z: 1}
@@ -2556,6 +2571,7 @@ MonoBehaviour:
     BillboardRecalculateNormals: 0
     BillboardNormalBlendFactor: 1
     BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
     UseHeightRule: 1
     MinHeight: 20
     MaxHeight: 1500
@@ -2883,6 +2899,7 @@ MonoBehaviour:
     ColliderMesh: {fileID: 0}
     ColliderUseForBake: 1
     ColliderDistanceFactor: 0.15
+    ColliderTag: 
     NavMeshObstacleType: 0
     NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
     NavMeshObstacleSize: {x: 1, y: 1, z: 1}
@@ -2910,6 +2927,7 @@ MonoBehaviour:
     BillboardRecalculateNormals: 0
     BillboardNormalBlendFactor: 1
     BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
     UseHeightRule: 1
     MinHeight: 15
     MaxHeight: 1500
@@ -3083,6 +3101,7 @@ MonoBehaviour:
     ColliderMesh: {fileID: 0}
     ColliderUseForBake: 1
     ColliderDistanceFactor: 0.15
+    ColliderTag: 
     NavMeshObstacleType: 0
     NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
     NavMeshObstacleSize: {x: 1, y: 1, z: 1}
@@ -3110,6 +3129,7 @@ MonoBehaviour:
     BillboardRecalculateNormals: 0
     BillboardNormalBlendFactor: 1
     BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
     UseHeightRule: 1
     MinHeight: 4
     MaxHeight: 1500
@@ -3300,7 +3320,7 @@ MonoBehaviour:
     NoiseOffset: {x: 0, y: 0}
     InverseNoise: 0
     TextureLayer: 0
-    Enabled: 1
+    Enabled: 0
     LockTexture: 0
     ConcaveEnable: 0
     ConvexEnable: 0
@@ -3389,7 +3409,7 @@ MonoBehaviour:
     NoiseOffset: {x: 0, y: 0}
     InverseNoise: 0
     TextureLayer: 1
-    Enabled: 1
+    Enabled: 0
     LockTexture: 0
     ConcaveEnable: 0
     ConvexEnable: 0
@@ -3779,8 +3799,8 @@ MonoBehaviour:
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       - serializedVersion: 3
         time: 1
         value: 1
@@ -3788,8 +3808,8 @@ MonoBehaviour:
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -3798,22 +3818,31 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.5
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.22197802
+        value: 0.98623854
+        inSlope: -0.142306
+        outSlope: -0.142306
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       - serializedVersion: 3
         time: 1
-        value: 0.5
+        value: 0.009174287
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -4366,3 +4395,4 @@ MonoBehaviour:
   TerrainTextureCount: 16
   BiomeType: 0
   BiomeSortOrder: 1
+  GenerateBiomeSplamap: 1

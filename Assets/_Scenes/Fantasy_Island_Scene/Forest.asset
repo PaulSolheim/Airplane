@@ -52,6 +52,7 @@ MonoBehaviour:
     ColliderMesh: {fileID: 0}
     ColliderUseForBake: 1
     ColliderDistanceFactor: 0.15
+    ColliderTag: 
     NavMeshObstacleType: 0
     NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
     NavMeshObstacleSize: {x: 1, y: 1, z: 1}
@@ -80,6 +81,7 @@ MonoBehaviour:
     BillboardRecalculateNormals: 0
     BillboardNormalBlendFactor: 1
     BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
     UseHeightRule: 1
     MinHeight: 0
     MaxHeight: 1500
@@ -408,6 +410,7 @@ MonoBehaviour:
     ColliderMesh: {fileID: 0}
     ColliderUseForBake: 1
     ColliderDistanceFactor: 0.15
+    ColliderTag: 
     NavMeshObstacleType: 0
     NavMeshObstacleCenter: {x: 0, y: 0, z: 0}
     NavMeshObstacleSize: {x: 1, y: 1, z: 1}
@@ -436,6 +439,7 @@ MonoBehaviour:
     BillboardRecalculateNormals: 0
     BillboardNormalBlendFactor: 1
     BillboardRenderMode: 1
+    BillboardFlipBackNormals: 0
     UseHeightRule: 1
     MinHeight: 0
     MaxHeight: 1500
@@ -1828,3 +1832,4 @@ MonoBehaviour:
   TerrainTextureCount: 16
   BiomeType: 2
   BiomeSortOrder: 1
+  GenerateBiomeSplamap: 1
