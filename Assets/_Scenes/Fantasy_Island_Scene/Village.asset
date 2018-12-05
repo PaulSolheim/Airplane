@@ -40,8 +40,8 @@ MonoBehaviour:
     ScaleMultiplier: {x: 1, y: 1, z: 1}
     RenderDistanceFactor: 1
     Seed: 66
-    MinScale: 0.8
-    MaxScale: 1.2
+    MinScale: 0.4
+    MaxScale: 0.6
     YScale: 1
     ColliderType: 0
     ColliderRadius: 0.25

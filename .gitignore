@@ -5,14 +5,22 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 3DForge/
+Animal pack deluxe/
+AstarPathfindingProject/
 AwesomeTechnologies/
 Devdog/
+Editor Default Resources/
+Fantasy Adventure Environment/
 LuxWater/
 NatureManufacture Assets/
 Opsive/
+Pixel Crushers/
+Plugins/
+PolygonFantasyRivals/
 PolygonCity/
 PolygonWestern/
 PolygonWesternFrontier/
+UMotion Examples/
 
 # Visual Studio cache directory
 .vs/
