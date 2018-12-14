@@ -5713,7 +5713,7 @@ GameObject:
   - component: {fileID: 203464564}
   - component: {fileID: 203464566}
   m_Layer: 31
-  m_Name: AI_BarbarianGiant_01
+  m_Name: AI_BarbarianGiant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5831,17 +5831,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -5933,37 +5933,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &203464560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6205,37 +6205,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!54 &203464563
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9313,7 +9313,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
+  m_Children:
+  - {fileID: 504836840}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12790,6 +12791,11 @@ Transform:
   m_Father: {fileID: 161383261}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &504836840 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1873417321}
 --- !u!1 &508387266
 GameObject:
   m_ObjectHideFlags: 0
@@ -15491,7 +15497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec179f9473f7f9849bab9aac78619ca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_StartCharacterCount: 1
+  m_StartCharacterCount: 20
   m_StartCameraCount: 1
   m_StartDeterministicObjectCount: 0
   m_AutoSyncTransforms: 0
@@ -15911,7 +15917,7 @@ GameObject:
   - component: {fileID: 584898478}
   - component: {fileID: 584898477}
   m_Layer: 31
-  m_Name: AI_Elf_01
+  m_Name: AI_Elf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16203,37 +16209,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &584898480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16289,37 +16295,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &584898483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16406,17 +16412,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -26333,7 +26339,7 @@ GameObject:
   - component: {fileID: 964024096}
   - component: {fileID: 964024095}
   m_Layer: 31
-  m_Name: AI_Troll_01
+  m_Name: AI_Troll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26626,37 +26632,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &964024098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26712,37 +26718,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &964024101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26829,17 +26835,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -27429,6 +27435,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &991487253
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 2}
+      propertyPath: initialDatabase
+      value: 
+      objectReference: {fileID: 11400000, guid: 6eebdaec25af3604d9d20c845a279336,
+        type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &992794872
 GameObject:
   m_ObjectHideFlags: 0
@@ -27798,7 +27851,7 @@ GameObject:
   - component: {fileID: 1006831659}
   - component: {fileID: 1006831658}
   m_Layer: 31
-  m_Name: AI_Demon_01
+  m_Name: AI_Demon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28090,37 +28143,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1006831661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28176,37 +28229,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1006831664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28293,17 +28346,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -32984,12 +33037,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityViewTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangePerspectivesEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &1169871544
 GameObject:
   m_ObjectHideFlags: 0
@@ -35122,7 +35175,7 @@ GameObject:
   - component: {fileID: 1259688355}
   - component: {fileID: 1259688354}
   m_Layer: 31
-  m_Name: AI_Mystic_01
+  m_Name: AI_Mystic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35414,37 +35467,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1259688357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35500,37 +35553,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1259688360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35617,17 +35670,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -36112,7 +36165,7 @@ GameObject:
   - component: {fileID: 1272039326}
   - component: {fileID: 1272039325}
   m_Layer: 31
-  m_Name: AI_ElementalGolem_01
+  m_Name: AI_ElementalGolem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36405,37 +36458,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1272039328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36491,37 +36544,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1272039331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36608,17 +36661,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -38771,7 +38824,7 @@ GameObject:
   - component: {fileID: 1349800975}
   - component: {fileID: 1349800974}
   m_Layer: 31
-  m_Name: AI_Witch_01
+  m_Name: AI_Witch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39063,37 +39116,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1349800977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39149,37 +39202,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1349800980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39266,17 +39319,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -40380,7 +40433,7 @@ GameObject:
   - component: {fileID: 1395508866}
   - component: {fileID: 1395508865}
   m_Layer: 31
-  m_Name: AI_God_01
+  m_Name: AI_God
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40672,37 +40725,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1395508868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40758,37 +40811,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1395508871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40875,17 +40928,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -44744,8 +44797,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1486735365}
-  m_LocalRotation: {x: 0.015155049, y: 0.97799504, z: -0.193483, w: 0.076554164}
-  m_LocalPosition: {x: 1009.0654, y: 65.41133, z: 1481.1951}
+  m_LocalRotation: {x: 0.0041991826, y: 0.9607197, z: -0.27710843, w: 0.014523762}
+  m_LocalPosition: {x: 458.65674, y: 993.4159, z: 1867.3732}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1780071292}
@@ -47533,7 +47586,7 @@ GameObject:
   - component: {fileID: 1596521580}
   - component: {fileID: 1596521581}
   m_Layer: 31
-  m_Name: AI_Warrior_01
+  m_Name: AI_Warrior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47736,17 +47789,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -47838,37 +47891,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1596521576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48110,37 +48163,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!54 &1596521579
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -50426,17 +50479,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -50545,37 +50598,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1686970492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50605,7 +50658,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ForceInput: 0
   m_DisableCursor: 1
   m_EnableCursorWithEscape: 1
@@ -50801,6 +50854,12 @@ MonoBehaviour:
     m_Values: 0100000044656661756c74ffffffff0000000001010100000001000000000000000000003f000000000000000000000000803fcdcccc3dcdcc4c3e446561746800ffffffff0000000000000000000000000000000001010000000000000000000000000000000000000000ffffffffffffffff01ffffffff01000000001f00000000000000000000000000403f
     m_UnityObjects: []
     m_Version: 2.0.5
+  - m_ObjectType: Opsive.UltimateCharacterController.Character.Abilities.Converse
+    m_ValueHashes: 65e77897b61df252c31ddd78760b38d8b345095a0edf2c3c5876362d3ce85fa374b19fd18249d95b217d9091222fcbce2ba74b255f036c3636e7590d67d2cf810e32f02c9527e5d2d13e8476957d98fc68c565c421440228daf4a3f9fe652832545bd2889eb85dafa45b4fe5e6d9d16130375d8836da4ebe5677262c6127d390990c81fa08c374965d397b67dae18591ac51537cb0f1b9d14859b6072128f2420c74df7a727037b3dfdbeb38059056ac61ee8114
+    m_ValuePositions: 0000000004000000040000000b0000000f000000130000001400000015000000190000001d00000021000000270000002b0000002c0000002c0000002c000000300000003100000035000000390000003d00000041000000410000004200000046000000460000004a0000004e0000004e000000520000005600000057000000580000005c0000006000000064000000680000006c00000070000000740000007500000075000000790000007a0000007b000000
+    m_Values: 0100000044656661756c74ffffffff000000000101010000000100000001000000416374696f6e0000003f000000000000000000000000803fcdcccc3dcdcc4c3e00ffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000ffffffff0000000001ffffffff010101
+    m_UnityObjects: []
+    m_Version: 2.0.5
   m_ItemAbilityData:
   - m_ObjectType: Opsive.UltimateCharacterController.Character.Abilities.Items.Reload
     m_ValueHashes: 65e77897b61df252c31ddd78760b38d8b345095a0edf2c3c5876362d3ce85fa374b19fd18249d95b217d9091222fcbce2ba74b255f036c3636e7590d67d2cf810e32f02c9527e5d2d13e8476957d98fc68c565c421440228daf4a3f9fe652832545bd2889eb85dafa45b4fe5e6d9d16130375d8836da4ebe5677262c6127d390990c81fa08c374965d397b67dae18591ac51537cb0f1b9d14859b6072128f2420c74df7a727037b3233ef30188804acf80b86517
@@ -50847,7 +50906,7 @@ MonoBehaviour:
   - m_ObjectType: Opsive.UltimateCharacterController.Character.Abilities.Items.Aim
     m_ValueHashes: 65e77897b61df252c31ddd78760b38d8b345095a0edf2c3c5876362d3ce85fa374b19fd18249d95b217d9091222fcbce2ba74b255f036c3636e7590d67d2cf810e32f02c9527e5d2d13e8476957d98fc68c565c421440228daf4a3f9fe652832545bd2889eb85dafa45b4fe5e6d9d16130375d8836da4ebe5677262c6127d390990c81fa08c374965d397b67dae18591ac51537cb0f1b9d14859b6072128f2420c74df7a727037b3233ef3018c7da646641c0f34
     m_ValuePositions: 0000000004000000040000000b0000000f000000130000001400000015000000190000001d00000021000000260000002a0000002b0000002b0000002b0000002f0000003000000034000000380000003c00000040000000430000004400000048000000480000004c00000050000000500000005400000058000000590000005a0000005e00000062000000660000006a0000006e000000720000007600000077000000770000007b0000007f00000080000000
-    m_Values: 0100000044656661756c74ffffffff00000000010102000000020000000100000046697265320000003f000000000000000000000000803fcdcccc3dcdcc4c3e41696d00ffffffff0000000000000000000000000000000001010000000000000000000000000000000000000000ffffffffffffffff01ffffffff010000000101
+    m_Values: 0100000044656661756c74ffffffff00000000010102000000020000000100000046697265320000003f000000000000000000000000803fcdcccc3dcdcc4c3e41696d00ffffffff0000000000000000000000000000000001010000000000000000000000000000000000000000ffffffffffffffff00ffffffff010000000101
     m_UnityObjects: []
     m_Version: 2.0.5
   m_EffectData: []
@@ -50855,37 +50914,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!54 &1686970496
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -55539,6 +55598,121 @@ Transform:
   m_Father: {fileID: 1839292448}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1873417321
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 337748342}
+    m_Modifications:
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224362287594313636, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114432435787007972, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_Character
+      value: 
+      objectReference: {fileID: 1686970483}
+    - target: {fileID: 114432435787007972, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_DefaultSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114311265425310662, guid: b5bf2e4077598914b83fc5e4ca20f2f4,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b5bf2e4077598914b83fc5e4ca20f2f4, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1873686077
 GameObject:
   m_ObjectHideFlags: 0
@@ -57999,7 +58173,7 @@ GameObject:
   - component: {fileID: 1991904646}
   - component: {fileID: 1991904645}
   m_Layer: 31
-  m_Name: AI_Dwarf_01
+  m_Name: AI_Dwarf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58292,37 +58466,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1991904648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58378,37 +58552,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1991904651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58495,17 +58669,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -58931,12 +59105,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_States:
+  - m_Name: 2.5D
+    m_Preset: {fileID: 11400000, guid: a2cb61679e257e449a26f30f29f80ad0, type: 2}
+    m_BlockList: []
+    m_Default: 0
   - m_Name: Default
     m_Preset: {fileID: 0}
     m_BlockList: []
     m_Default: 1
   m_ActionID: 0
-  m_LookSensitivity: 0.97
+  m_LookSensitivity: 0.98
   m_FirePointLocation: {fileID: 796443915}
   m_FirePointAttachmentLocation: {fileID: 0}
   m_FirePointAttachmentLocationID: -1
@@ -58944,7 +59122,8 @@ MonoBehaviour:
   m_ShellLocation: {fileID: 1637642586}
   m_SmokeLocation: {fileID: 0}
   m_TracerLocation: {fileID: 0}
-  m_ReloadableClip: {fileID: 0}
+  m_ReloadableClip: {fileID: 4762257086101414, guid: 84f9261868f62d9498bbdfc93d01ed51,
+    type: 2}
   m_ReloadableClipAttachment: {fileID: 0}
   m_ReloadableClipAttachmentID: -1
   m_ReloadProjectileAttachment: {fileID: 0}
@@ -58962,6 +59141,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_States:
+  - m_Name: ThirdPerson
+    m_Preset: {fileID: 11400000, guid: 084c9457844e8ed428be62927c61bd02, type: 2}
+    m_BlockList: []
+    m_Default: 0
+  - m_Name: Aim
+    m_Preset: {fileID: 11400000, guid: f82217c55a7c2f24db2db2cce6d63215, type: 2}
+    m_BlockList:
+    - ThirdPerson
+    m_Default: 0
   - m_Name: Default
     m_Preset: {fileID: 0}
     m_BlockList: []
@@ -58973,7 +59161,7 @@ MonoBehaviour:
   m_StopUseAbilityDelay: 0.25
   m_UseEvent:
     m_WaitForAnimationEvent: 1
-    m_Duration: 0.2
+    m_Duration: 0
   m_UseCompleteEvent:
     m_WaitForAnimationEvent: 0
     m_Duration: 0.05
@@ -59008,10 +59196,11 @@ MonoBehaviour:
       m_ItemSubstateIndex: 2
       m_AudioClipSet:
         m_Delay: 0
-        m_AudioClips: []
+        m_AudioClips:
+        - {fileID: 8300000, guid: cc144cd756a95044d87c06d7a7207e9a, type: 3}
   m_ConsumableItemType: {fileID: 114430448648653870, guid: 0595914a85138a241b4db87b14c6da12,
     type: 2}
-  m_FireMode: 0
+  m_FireMode: 1
   m_FireType: 0
   m_MinChargeLength: 0
   m_FullChargeLength: 0
@@ -59023,7 +59212,7 @@ MonoBehaviour:
   m_FireCount: 1
   m_BurstCount: 5
   m_BurstDelay: 0.25
-  m_Spread: 0.01
+  m_Spread: 3
   m_FireInLookSourceDirection: 1
   m_Projectile: {fileID: 0}
   m_ProjectileFireVelocityMagnitude: 10
@@ -59035,20 +59224,21 @@ MonoBehaviour:
   m_DryFireItemSubstateParameterValue: 11
   m_DryFireAudioClipSet:
     m_Delay: 0
-    m_AudioClips: []
+    m_AudioClips:
+    - {fileID: 8300000, guid: 2d8e96ae38d893b428bfa05f45141e08, type: 3}
   m_HitscanFireRange: 3.4028235e+38
   m_MaxHitscanCollisionCount: 15
   m_ImpactLayers:
     serializedVersion: 2
-    m_Bits: 3758096345
+    m_Bits: 3489660921
   m_DamageAmount: 10
   m_ImpactForce: 2
   m_ImpactForceFrames: 15
   m_ImpactStateName: 
   m_ImpactStateDisableTimer: 10
-  m_SurfaceImpact: {fileID: 0}
-  m_ClipSize: 50
-  m_AutoReload: 3
+  m_SurfaceImpact: {fileID: 11400000, guid: f49abdd3bca87e54cb474256211b133e, type: 2}
+  m_ClipSize: 48
+  m_AutoReload: -1
   m_ReloadType: 0
   m_ReloadCanCameraZoom: 1
   m_ReloadCrosshairsSpread: 1
@@ -59072,17 +59262,18 @@ MonoBehaviour:
       m_ItemSubstateIndex: 0
       m_AudioClipSet:
         m_Delay: 0
-        m_AudioClips: []
+        m_AudioClips:
+        - {fileID: 8300000, guid: 2c7840cd69a940d488e857ffaeee1f73, type: 3}
   m_ReloadEvent:
     m_WaitForAnimationEvent: 1
-    m_Duration: 0
+    m_Duration: 1
   m_ReloadCompleteEvent:
     m_WaitForAnimationEvent: 1
     m_Duration: 0
   m_ReloadCompleteAudioClipSet:
     m_Delay: 0
     m_AudioClips: []
-  m_ReloadDetachAttachClip: 0
+  m_ReloadDetachAttachClip: 1
   m_ReloadDetachClipEvent:
     m_WaitForAnimationEvent: 1
     m_Duration: 0.4
@@ -59091,8 +59282,9 @@ MonoBehaviour:
     m_Duration: 0.4
   m_ReloadAttachProjectileEvent:
     m_WaitForAnimationEvent: 1
-    m_Duration: 0.6
-  m_ReloadDropClip: {fileID: 0}
+    m_Duration: 0.4
+  m_ReloadDropClip: {fileID: 1157298650619562, guid: 84f9261868f62d9498bbdfc93d01ed51,
+    type: 2}
   m_ReloadClipLayerChangeDelay: 0.1
   m_ReloadClipTargetLayer: 28
   m_ReloadDropClipEvent:
@@ -59114,13 +59306,14 @@ MonoBehaviour:
     m_MaxValue: {x: 0, y: 0, z: 0}
     m_MinMagnitude: {x: 0, y: 0, z: 0}
   m_RotationCameraRecoil:
-    m_MinValue: {x: -2, y: -1, z: 0}
-    m_MaxValue: {x: -1, y: 1, z: 0}
-    m_MinMagnitude: {x: 0, y: 0, z: 0}
-  m_CameraRecoilAccumulation: 0
-  m_MuzzleFlash: {fileID: 0}
+    m_MinValue: {x: -5, y: -4, z: 0}
+    m_MaxValue: {x: -2, y: 4, z: 0}
+    m_MinMagnitude: {x: 1, y: 1, z: 0}
+  m_CameraRecoilAccumulation: 0.1
+  m_MuzzleFlash: {fileID: 1090768013372814, guid: eb09978e480a1a54087be6ff989d9f57,
+    type: 2}
   m_PoolMuzzleFlash: 1
-  m_Shell: {fileID: 0}
+  m_Shell: {fileID: 1095859200011794, guid: ce2dafee6bbd4be44b4116aae032c19b, type: 2}
   m_ShellVelocity:
     m_MinValue: {x: 3, y: 0, z: 0}
     m_MaxValue: {x: 4, y: 2, z: 0}
@@ -59139,7 +59332,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &2008382665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59177,6 +59370,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_States:
+  - m_Name: Death
+    m_Preset: {fileID: 11400000, guid: 5a172a2319fad0a43bde65272c92977e, type: 2}
+    m_BlockList: []
+    m_Default: 0
   - m_Name: Default
     m_Preset: {fileID: 0}
     m_BlockList: []
@@ -59193,7 +59390,7 @@ MonoBehaviour:
     m_Duration: 0.3
   m_EquipCompleteEvent:
     m_WaitForAnimationEvent: 0
-    m_Duration: 0
+    m_Duration: 0.3
   m_EquipAnimatorAudioStateSet:
     m_AnimatorAudioStateSelectorData:
       m_ObjectType: Opsive.UltimateCharacterController.Items.AnimatorAudioStates.Sequence
@@ -59214,13 +59411,14 @@ MonoBehaviour:
       m_ItemSubstateIndex: 0
       m_AudioClipSet:
         m_Delay: 0
-        m_AudioClips: []
+        m_AudioClips:
+        - {fileID: 8300000, guid: 31722ee00fd6f0f4abf5d53d5170a3be, type: 3}
   m_UnequipEvent:
     m_WaitForAnimationEvent: 1
     m_Duration: 0.3
   m_UnequipCompleteEvent:
     m_WaitForAnimationEvent: 0
-    m_Duration: 0
+    m_Duration: 0.3
   m_UnequipAnimatorAudioStateSet:
     m_AnimatorAudioStateSelectorData:
       m_ObjectType: Opsive.UltimateCharacterController.Items.AnimatorAudioStates.Sequence
@@ -59241,7 +59439,8 @@ MonoBehaviour:
       m_ItemSubstateIndex: 0
       m_AudioClipSet:
         m_Delay: 0
-        m_AudioClips: []
+        m_AudioClips:
+        - {fileID: 8300000, guid: ff9c757fd4c413b4baf272f1ae0740db, type: 3}
   m_UIMonitorID: 0
   m_Icon: {fileID: 0}
   m_ShowCrosshairsOnAim: 1
@@ -60212,7 +60411,7 @@ GameObject:
   - component: {fileID: 2035694989}
   - component: {fileID: 2035694988}
   m_Layer: 31
-  m_Name: AI_Medusa_01
+  m_Name: AI_Medusa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60504,37 +60703,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &2035694991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60590,37 +60789,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &2035694994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60707,17 +60906,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -61107,7 +61306,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2043918962}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1008.9844, y: 0, z: 1481.1523}
+  m_LocalPosition: {x: 458.59375, y: 0, z: 1867.2852}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1337493678}
@@ -61177,7 +61376,7 @@ GameObject:
   - component: {fileID: 2047529153}
   - component: {fileID: 2047529152}
   m_Layer: 31
-  m_Name: AI_Queen_01
+  m_Name: AI_Queen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61469,37 +61668,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &2047529155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61555,37 +61754,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &2047529158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61672,17 +61871,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -62726,7 +62925,7 @@ GameObject:
   - component: {fileID: 2083448643}
   - component: {fileID: 2083448642}
   m_Layer: 31
-  m_Name: AI_Guardian_01
+  m_Name: AI_Guardian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63018,37 +63217,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &2083448645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63104,37 +63303,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &2083448648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63221,17 +63420,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -63426,7 +63625,7 @@ GameObject:
   - component: {fileID: 2088787587}
   - component: {fileID: 2088787586}
   m_Layer: 31
-  m_Name: AI_BigOrk_01
+  m_Name: AI_BigOrk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63719,37 +63918,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &2088787589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63805,37 +64004,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &2088787592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63922,17 +64121,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
@@ -64155,7 +64354,7 @@ GameObject:
   - component: {fileID: 2096821513}
   - component: {fileID: 2096821512}
   m_Layer: 31
-  m_Name: AI_DemonGlow_01
+  m_Name: AI_DemonGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64447,37 +64646,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityMovementTypeBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityAbilityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnItemAbilityActiveEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemAbilityBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnGroundedEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityBoolEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeTimeScaleEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnChangeMovingPlatformsEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityTransformEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &2096821515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64533,37 +64732,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnPickupItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemFloatBoolBoolEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnEquipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUseItemTypeEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemTypeFloatEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnUnequipItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnRemoveItemEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityItemIntEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &2096821518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64650,17 +64849,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityFloatEvent, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_OnDeathEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Opsive.UltimateCharacterController.Events.UnityVector3Vector3GameObjectEvent,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      Assembly-CSharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ApplyFallDamage: 0
   m_MinFallDamageHeight: 3
   m_MinFallDamage: 1
